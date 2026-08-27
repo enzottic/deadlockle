@@ -1,0 +1,45 @@
+﻿Name,Cooldown,Effect Duration,Effect Type,Item Effect,Item Trigger,Stats,Tier,Type,Upgrades From,Upgrades To
+Extra Charge,N/A,N/A,,None,None,"Bonus Ability Charges, Bonus Spirit Power for Charged Abilities",1,Spirit,0,1
+Extra Spirit,N/A,N/A,,None,None,Increased Spirit Power,1,Spirit,0,2
+Mystic Burst,14s,N/A,Passive,Spirit Damage,Damage,None,1,Spirit,0,1
+Mystic Expansion,N/A,N/A,"Imbue, Passive",Increased Ability Range,Use Imbued Ability,None,1,Spirit,0,1
+Mystic Regeneration,7s,7s,Passive,Increased Regeneration,Spirit Damage,Bonus Health,1,Spirit,0,1
+Rusted Barrel,16s,5s,Active,Decreased Fire Rate,Use Item,"Bonus Health, Increased Sprint Speed",1,Spirit,0,1
+Spirit Strike,8s,6s,Passive,"Decreased Spirit Resist, Spirit Damage","Heavy Melee, Light Melee",None,1,Spirit,0,1
+Golden Goose Egg,N/A,N/A,Active,Golden Statue Buffs,Use Item,None,1,Spirit,0,0
+Arcane Surge,N/A,7s,Passive,"Increased Ability Duration, Increased Ability Range, Increased Spirit Power",Dash-Jump,"Increased Stamina, Increased Stamina Recovery",2,Spirit,1,0
+Bullet Resist Shredder,N/A,8s,Passive,Decreased Bullet Resist,Damage,"Increased Bullet Resist, Increased Weapon Damage",2,Spirit,0,0
+Cold Front,25s,4s,Active,"Movement Slow, Spirit Damage",Use Item,Increased Spirit Resist,2,Spirit,0,1
+Compress Cooldown,N/A,N/A,"Imbue, Passive",Cooldown Reduction,None,None,2,Spirit,0,1
+Duration Extender,N/A,N/A,"Imbue, Passive",Increased Duration,None,None,2,Spirit,0,1
+Improved Spirit,N/A,N/A,,None,None,"Increased Out of Combat Regen, Increased Spirit Power",2,Spirit,1,1
+Mystic Slow,N/A,2s,Passive,Decreased Move Speed,Spirit Damage,"Bonus Health, Increased Sprint Speed",2,Spirit,0,1
+Mystic Vulnerability,N/A,7s,Passive,Decreased Spirit Resist,Spirit Damage,Increased Spirit Resist,2,Spirit,0,1
+Quicksilver Reload,18s,N/A,"Imbue, Passive","Increased Fire Rate, Weapon Reload",Ability Use,None,2,Spirit,0,1
+Slowing Hex,27s,3.5s,Active,"Decreased Dash Distance, Movement Slow",Use Item,Increased Sprint Speed,2,Spirit,0,1
+Spirit Sap,18s,12s,Active,"Decreased Spirit Power, Decreased Spirit Resist",Use Item,Bonus Health,2,Spirit,0,1
+Suppressor,N/A,4.5s,Passive,Decreased Fire Rate,Spirit Damage,"Increased Bullet Resist, Increased Spirit Power",2,Spirit,0,0
+Extra Health,N/A,N/A,,None,None,Bonus Health,1,Vitality,0,2
+Extra Regen,N/A,N/A,,None,None,"Increased Health Regen, Increased Out of Combat Regen",1,Vitality,0,1
+Extra Stamina,N/A,N/A,,None,None,"Increased Stamina, Increased Stamina Recovery",1,Vitality,0,3
+Healing Rite,70s,20s,Active,"Increased Move Speed, Regen",Use Item,None,1,Vitality,0,2
+Melee Lifesteal,8s,N/A,Passive,Heal,Melee,Increased Melee Damage,1,Vitality,0,1
+Rebuttal,N/A,6s,Passive,"Damage, Heal, Increased Damage, Stun",Successful Parry,"Bonus Health, Decreased Parry Cooldown, Increased Melee Resist",1,Vitality,0,0
+Sprint Boots,N/A,N/A,,None,None,"Increased Out of Combat Regen, Increased Sprint Speed",1,Vitality,0,3
+Grit,60s,4s,Active,Gain Barrier,Use Item,Increased Out of Combat Regen,1,Vitality,0,4
+Infuser,30s,7s,Active,"Increased Spirit Power, Spirit Lifesteal",Use Item,"Bonus Health, Increased Spirit Power, Increased Spirit Resist, Spirit Lifesteal",4,Vitality,1,0
+Juggernaut,N/A,4s,Passive,Decreased Fire Rate,Shot by Enemy,"Increased Health Regen, Increased Melee Resist, Increased Move Speed, Increased Slow Resist",4,Vitality,1,0
+Unstoppable,60s,7s,Active,"Immune to Disarm, Immune to Root, Immune to Silence, Immune to Sleep, Immune to Stun",Use Item,"Bonus Health, Increased Debuff Resist",4,Vitality,1,0
+Echo Shared,30s (minimum),N/A,Active,Reset Ability Cooldown,Use Item,"Increased Bullet Resist, Increased Spirit Resist",4,Spirit,0,0
+Refresher,300s,N/A,Active,Reset Ability Cooldown,Use Item,None,4,Spirit,0,0
+Surge of Power,14s,8s,"Imbue, Passive","Increased Fire Rate, Increased Move Speed",Use Ability,None,3,Spirit,1,0
+Close Quarters,N/A,5.5s,Passive,Increased Damage,Close Range,Increased Melee Resist,1,Gun,0,1
+Extended Magazine,N/A,N/A,,None,None,"Increased Max Ammo, Increased Weapon Damage",1,Gun,0,2
+Headshot Booster,9s,N/A,Passive,Bonus Weapon Damage,Headshot,Bonus Health,1,Gun,0,1
+High-Velocity Rounds,N/A,N/A,,None,None,"Increased Bullet Velocity, Increased Weapon Damage",1,Gun,0,4
+Monster Rounds,N/A,N/A,,None,None,"Increased Bullet Resist vs. NPCs, Increased Out of Combat Regen, Increased Weapon Damage vs. NPCs",1,Gun,0,1
+Active Reload,12s,N/A,Passive,"Finish Reload, Increased Bullet Lifesteal, Increased Fire Rate, Increased Move Speed",Reload,Increased Max Ammo,2,Gun,0,0
+Escalating Resilience,N/A,24s,Passive,Increased Bullet Resist,Shoot Enemy,"Bonus Health, Increased Max Ammo, Increased Weapon Damage",3,Gun,1,0
+Toxic Bullets,N/A,4s,Passive,"Bleed, Healing Reduction",Shoot Enemy,None,3,Gun,0,0
+Ricochet,N/A,N/A,Passive,Bullet Bounces to Other Targets,Shoot Enemy,Increased Fire Rate,4,Gun,0,0
+Spellslinger,N/A,18s,Passive,"Increased Fire Rate, Increased Reload Speed","Ability Use, In Combat, Use Ability, Use Item",Ability Cooldown Reduction,4,Gun,0,0

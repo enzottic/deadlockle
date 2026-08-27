@@ -1,0 +1,23 @@
+"$schema" = "./node_modules/wrangler/config-schema.json"
+name = "deadlockle"
+compatibility_date = "2026-08-20"
+compatibility_flags = ["nodejs_als"]
+main = ".svelte-kit/cloudflare/_worker.js"
+workers_dev = true
+preview_urls = true
+
+[assets]
+binding = "ASSETS"
+directory = ".svelte-kit/cloudflare"
+
+[observability]
+enabled = true
+
+[build]
+command = "bun run build"
+watch_dir = ["src", "static"]
+
+[[kv_namespaces]]
+binding = "DEADLOCKLE"
+id = "6a187bb5e13f4f0cbbf99688c76b0ff0"
+remote = true
