@@ -1,4 +1,4 @@
-﻿Name,Cooldown,Effect Duration,Effect Type,Item Effect,Item Trigger,Stats,Tier,Type,Upgrades From,Upgrades To
+Name,Cooldown,Effect Duration,Effect Type,Item Effect,Item Trigger,Stats,Tier,Type,Upgrades From,Upgrades To
 Extra Charge,N/A,N/A,,None,None,"Bonus Ability Charges, Bonus Spirit Power for Charged Abilities",1,Spirit,0,1
 Extra Spirit,N/A,N/A,,None,None,Increased Spirit Power,1,Spirit,0,2
 Mystic Burst,14s,N/A,Passive,Spirit Damage,Damage,None,1,Spirit,0,1
@@ -33,13 +33,13 @@ Unstoppable,60s,7s,Active,"Immune to Disarm, Immune to Root, Immune to Silence, 
 Echo Shared,30s (minimum),N/A,Active,Reset Ability Cooldown,Use Item,"Increased Bullet Resist, Increased Spirit Resist",4,Spirit,0,0
 Refresher,300s,N/A,Active,Reset Ability Cooldown,Use Item,None,4,Spirit,0,0
 Surge of Power,14s,8s,"Imbue, Passive","Increased Fire Rate, Increased Move Speed",Use Ability,None,3,Spirit,1,0
-Close Quarters,N/A,5.5s,Passive,Increased Damage,Close Range,Increased Melee Resist,1,Gun,0,1
-Extended Magazine,N/A,N/A,,None,None,"Increased Max Ammo, Increased Weapon Damage",1,Gun,0,2
-Headshot Booster,9s,N/A,Passive,Bonus Weapon Damage,Headshot,Bonus Health,1,Gun,0,1
-High-Velocity Rounds,N/A,N/A,,None,None,"Increased Bullet Velocity, Increased Weapon Damage",1,Gun,0,4
-Monster Rounds,N/A,N/A,,None,None,"Increased Bullet Resist vs. NPCs, Increased Out of Combat Regen, Increased Weapon Damage vs. NPCs",1,Gun,0,1
-Active Reload,12s,N/A,Passive,"Finish Reload, Increased Bullet Lifesteal, Increased Fire Rate, Increased Move Speed",Reload,Increased Max Ammo,2,Gun,0,0
-Escalating Resilience,N/A,24s,Passive,Increased Bullet Resist,Shoot Enemy,"Bonus Health, Increased Max Ammo, Increased Weapon Damage",3,Gun,1,0
-Toxic Bullets,N/A,4s,Passive,"Bleed, Healing Reduction",Shoot Enemy,None,3,Gun,0,0
-Ricochet,N/A,N/A,Passive,Bullet Bounces to Other Targets,Shoot Enemy,Increased Fire Rate,4,Gun,0,0
-Spellslinger,N/A,18s,Passive,"Increased Fire Rate, Increased Reload Speed","Ability Use, In Combat, Use Ability, Use Item",Ability Cooldown Reduction,4,Gun,0,0
+Close Quarters,N/A,5.5s,Passive,Increased Damage,Close Range,Increased Melee Resist,1,Weapon,0,1
+Extended Magazine,N/A,N/A,,None,None,"Increased Max Ammo, Increased Weapon Damage",1,Weapon,0,2
+Headshot Booster,9s,N/A,Passive,Bonus Weapon Damage,Headshot,Bonus Health,1,Weapon,0,1
+High-Velocity Rounds,N/A,N/A,,None,None,"Increased Bullet Velocity, Increased Weapon Damage",1,Weapon,0,4
+Monster Rounds,N/A,N/A,,None,None,"Increased Bullet Resist vs. NPCs, Increased Out of Combat Regen, Increased Weapon Damage vs. NPCs",1,Weapon,0,1
+Active Reload,12s,N/A,Passive,"Finish Reload, Increased Bullet Lifesteal, Increased Fire Rate, Increased Move Speed",Reload,Increased Max Ammo,2,Weapon,0,0
+Escalating Resilience,N/A,24s,Passive,Increased Bullet Resist,Shoot Enemy,"Bonus Health, Increased Max Ammo, Increased Weapon Damage",3,Weapon,1,0
+Toxic Bullets,N/A,4s,Passive,"Bleed, Healing Reduction",Shoot Enemy,None,3,Weapon,0,0
+Ricochet,N/A,N/A,Passive,Bullet Bounces to Other Targets,Shoot Enemy,Increased Fire Rate,4,Weapon,0,0
+Spellslinger,N/A,18s,Passive,"Increased Fire Rate, Increased Reload Speed","Ability Use, In Combat, Use Ability, Use Item",Ability Cooldown Reduction,4,Weapon,0,0

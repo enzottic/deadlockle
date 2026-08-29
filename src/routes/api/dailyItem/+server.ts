@@ -2,6 +2,13 @@ import { json } from "@sveltejs/kit";
 import type { RequestHandler } from "../items/$types";
 import type { DeadlockItem } from "$lib/types";
 
+type StoredDeadlockItem = Omit<DeadlockItem, "type"> & {
+    type: string;
+};
+
+const normalizeItemType = (type: string): DeadlockItem["type"] =>
+    type === "Vitality" || type === "Spirit" ? type : "Weapon";
+
 export const GET: RequestHandler = async ({ platform }) => {
     try {
         const kv = platform?.env.DEADLOCKLE;
@@ -18,8 +25,12 @@ export const GET: RequestHandler = async ({ platform }) => {
         if (response === null) {
             return json({ error: "Daily item was not found in KV" }, { status: 404 });
         }
-        const items = JSON.parse(response) as DeadlockItem;
-        return json({ items: items })
+        const storedItem = JSON.parse(response) as StoredDeadlockItem;
+        const item: DeadlockItem = {
+            ...storedItem,
+            type: normalizeItemType(storedItem.type)
+        };
+        return json({ items: item })
     } catch (error) {
         console.error("Failed to retrieve daily item from KV", error);
         return json({ error: "Failed to retrieve data" }, { status: 502 });

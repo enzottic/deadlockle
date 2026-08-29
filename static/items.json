@@ -611,7 +611,7 @@
       "Increased Melee Resist"
     ],
     "tier": 1,
-    "type": "Gun",
+    "type": "Weapon",
     "upgrades_from": 0,
     "upgrades_to": 1
   },
@@ -626,7 +626,7 @@
       "Increased Weapon Damage"
     ],
     "tier": 1,
-    "type": "Gun",
+    "type": "Weapon",
     "upgrades_from": 0,
     "upgrades_to": 2
   },
@@ -644,7 +644,7 @@
       "Bonus Health"
     ],
     "tier": 1,
-    "type": "Gun",
+    "type": "Weapon",
     "upgrades_from": 0,
     "upgrades_to": 1
   },
@@ -659,7 +659,7 @@
       "Increased Weapon Damage"
     ],
     "tier": 1,
-    "type": "Gun",
+    "type": "Weapon",
     "upgrades_from": 0,
     "upgrades_to": 4
   },
@@ -675,7 +675,7 @@
       "Increased Weapon Damage vs. NPCs"
     ],
     "tier": 1,
-    "type": "Gun",
+    "type": "Weapon",
     "upgrades_from": 0,
     "upgrades_to": 1
   },
@@ -696,7 +696,7 @@
       "Increased Max Ammo"
     ],
     "tier": 2,
-    "type": "Gun",
+    "type": "Weapon",
     "upgrades_from": 0,
     "upgrades_to": 0
   },
@@ -716,7 +716,7 @@
       "Increased Weapon Damage"
     ],
     "tier": 3,
-    "type": "Gun",
+    "type": "Weapon",
     "upgrades_from": 1,
     "upgrades_to": 0
   },
@@ -733,7 +733,7 @@
     ],
     "stats": [],
     "tier": 3,
-    "type": "Gun",
+    "type": "Weapon",
     "upgrades_from": 0,
     "upgrades_to": 0
   },
@@ -751,7 +751,7 @@
       "Increased Fire Rate"
     ],
     "tier": 4,
-    "type": "Gun",
+    "type": "Weapon",
     "upgrades_from": 0,
     "upgrades_to": 0
   },
@@ -773,7 +773,7 @@
       "Ability Cooldown Reduction"
     ],
     "tier": 4,
-    "type": "Gun",
+    "type": "Weapon",
     "upgrades_from": 0,
     "upgrades_to": 0
   }

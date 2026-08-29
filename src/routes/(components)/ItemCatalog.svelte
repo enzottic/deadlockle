@@ -12,10 +12,11 @@
         items: DeadlockItem[];
     }
 
-    const itemTypes: DeadlockItemType[] = ["Gun", "Vitality", "Spirit"];
+    const itemTypes: DeadlockItemType[] = ["Weapon", "Vitality", "Spirit"];
 
     let { items, onselect }: Props = $props();
-    let activeType = $state<DeadlockItemType>("Gun");
+    let activeType = $state<DeadlockItemType>("Weapon");
+    let searchQuery = $state("");
 
     const groupItemsByTypeAndTier = (catalogItems: DeadlockItem[]): Record<DeadlockItemType, TierGroup[]> => {
         const itemsByType = catalogItems.reduce<Record<DeadlockItemType, DeadlockItem[]>>(
@@ -23,7 +24,7 @@
                 groups[item.type].push(item);
                 return groups;
             },
-            { Gun: [], Vitality: [], Spirit: [] }
+            { Weapon: [], Vitality: [], Spirit: [] }
         );
 
         return Object.fromEntries(
@@ -39,12 +40,17 @@
         ) as Record<DeadlockItemType, TierGroup[]>;
     };
 
-    let groupedItems = $derived(groupItemsByTypeAndTier(items));
+    let filteredItems = $derived(
+        searchQuery.trim()
+            ? items.filter((item) => item.name.toLowerCase().includes(searchQuery.trim().toLowerCase()))
+            : items
+    );
+    let groupedItems = $derived(groupItemsByTypeAndTier(filteredItems));
 </script>
 
 <div
     class="picker-shell"
-    class:gun={activeType === "Gun"}
+    class:weapon={activeType === "Weapon"}
     class:vitality={activeType === "Vitality"}
     class:spirit={activeType === "Spirit"}
     style:--paper-texture={`url(${paperTexture})`}
@@ -53,7 +59,7 @@
         {#each itemTypes as type}
             <button
                 class="type-tab"
-                class:gun={type === "Gun"}
+                class:weapon={type === "Weapon"}
                 class:vitality={type === "Vitality"}
                 class:spirit={type === "Spirit"}
                 class:active={activeType === type}
@@ -69,27 +75,42 @@
     </div>
 
     <section id="item-picker-panel" class="item-group" role="tabpanel">
-        <div class="tier-groups">
-            {#each groupedItems[activeType] as tierGroup}
-                <section class={`tier-group tier-${tierGroup.tier}`}>
-                    <h2>Tier {tierGroup.tier}</h2>
-                    <div class="item-buttons">
-                        {#each tierGroup.items as item}
-                            <button class="item-button" type="button" onclick={() => onselect(item)}>
-                                {#if item.image_url}
-                                    <span class="item-icon-slot">
-                                        <img class="item-icon" src={item.image_url} alt="" loading="lazy" decoding="async" draggable="false" />
-                                    </span>
-                                {:else}
-                                    <span class="item-icon-slot placeholder" aria-hidden="true"></span>
-                                {/if}
-                                <span class="item-name">{item.name}</span>
-                            </button>
-                        {/each}
-                    </div>
-                </section>
-            {/each}
+        <div class="catalog-search">
+            <label for="item-search">Find an item</label>
+            <input
+                id="item-search"
+                type="search"
+                placeholder="Search items…"
+                bind:value={searchQuery}
+                autocomplete="off"
+            />
         </div>
+
+        {#if groupedItems[activeType].length}
+            <div class="tier-groups">
+                {#each groupedItems[activeType] as tierGroup}
+                    <section class={`tier-group tier-${tierGroup.tier}`}>
+                        <h2>Tier {tierGroup.tier}</h2>
+                        <div class="item-buttons">
+                            {#each tierGroup.items as item}
+                                <button class="item-button" type="button" onclick={() => onselect(item)}>
+                                    {#if item.image_url}
+                                        <span class="item-icon-slot">
+                                            <img class="item-icon" src={item.image_url} alt="" loading="lazy" decoding="async" draggable="false" />
+                                        </span>
+                                    {:else}
+                                        <span class="item-icon-slot placeholder" aria-hidden="true"></span>
+                                    {/if}
+                                    <span class="item-name">{item.name}</span>
+                                </button>
+                            {/each}
+                        </div>
+                    </section>
+                {/each}
+            </div>
+        {:else}
+            <p class="no-results">No {activeType.toLowerCase()} items match “{searchQuery.trim()}”.</p>
+        {/if}
     </section>
 </div>
 
@@ -105,7 +126,7 @@
         transform: translateX(-50%);
     }
 
-    .picker-shell.gun {
+    .picker-shell.weapon {
         --type-color: #DFB016;
         --type-surface: #49331f;
         --type-surface-hover: #5b4027;
@@ -158,7 +179,7 @@
         transition: opacity 120ms ease, transform 120ms ease;
     }
 
-    .type-tab.gun {
+    .type-tab.weapon {
         --tab-color: #DFB016;
     }
 
@@ -227,6 +248,52 @@
         z-index: 1;
     }
 
+    .catalog-search,
+    .tier-groups,
+    .no-results {
+        position: relative;
+        z-index: 2;
+    }
+
+    .catalog-search {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .catalog-search label {
+        flex: 0 0 auto;
+        color: #202020;
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    }
+
+    .catalog-search input {
+        width: min(100%, 24rem);
+        min-width: 0;
+        padding: 0.65rem 0.8rem;
+        border: 2px solid rgb(0 0 0 / 28%);
+        border-radius: 0.25rem;
+        outline: none;
+        background: rgb(255 255 255 / 76%);
+        color: #171717;
+        font: inherit;
+    }
+
+    .catalog-search input:focus {
+        border-color: var(--type-color);
+        background: #fff;
+    }
+
+    .no-results {
+        margin: 2rem 0;
+        color: #252525;
+        font-weight: 700;
+        text-align: center;
+    }
+
     .tier-groups {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -265,26 +332,26 @@
         --tier-surface-hover: color-mix(in srgb, var(--type-color) 16%, #141414);
     }
 
-    .picker-shell.gun .tier-group {
+    .picker-shell.weapon .tier-group {
         --tier-text-color: #261C00;
     }
 
-    .picker-shell.gun .tier-group.tier-1 {
+    .picker-shell.weapon .tier-group.tier-1 {
         --tier-surface: #E7CA8E;
         --tier-surface-hover: color-mix(in srgb, #E7CA8E 90%, white);
     }
 
-    .picker-shell.gun .tier-group.tier-2 {
+    .picker-shell.weapon .tier-group.tier-2 {
         --tier-surface: #C29B61;
         --tier-surface-hover: color-mix(in srgb, #C29B61 90%, white);
     }
 
-    .picker-shell.gun .tier-group.tier-3 {
+    .picker-shell.weapon .tier-group.tier-3 {
         --tier-surface: #BB7E40;
         --tier-surface-hover: color-mix(in srgb, #BB7E40 90%, white);
     }
 
-    .picker-shell.gun .tier-group.tier-4 {
+    .picker-shell.weapon .tier-group.tier-4 {
         --tier-surface: #5A4F45;
         --tier-surface-hover: color-mix(in srgb, #5A4F45 90%, white);
         --tier-text-color: #E7C4A3;
@@ -479,16 +546,68 @@
 
         .tier-groups {
             grid-template-columns: 1fr;
+            gap: 0.5rem;
+            margin-top: 0.65rem;
         }
 
         .item-buttons {
             grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 0.35rem;
         }
 
         .item-group {
             width: 100%;
             min-height: 0;
+            padding: 0.65rem;
             box-sizing: border-box;
+        }
+
+        .catalog-search {
+            display: block;
+        }
+
+        .catalog-search label {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+            clip: rect(0 0 0 0);
+            clip-path: inset(50%);
+            white-space: nowrap;
+        }
+
+        .catalog-search input {
+            width: 100%;
+            padding: 0.55rem 0.65rem;
+        }
+
+        .tier-group {
+            padding: 0.4rem;
+        }
+
+        .tier-group h2 {
+            margin-bottom: 0.35rem;
+            font-size: 0.8rem;
+        }
+
+        .item-button {
+            min-height: 3rem;
+            flex-direction: row;
+            border-radius: 0.35rem;
+            text-align: left;
+        }
+
+        .item-icon-slot {
+            width: 3rem;
+            height: 3rem;
+            aspect-ratio: auto;
+        }
+
+        .item-name {
+            min-height: 0;
+            justify-content: flex-start;
+            padding: 0.35rem;
+            font-size: 0.75rem;
         }
 
         .item-group::before {

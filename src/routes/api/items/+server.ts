@@ -21,6 +21,13 @@ interface DeadlockIoItemsResponse {
     items?: DeadlockIoItem[];
 }
 
+type StoredDeadlockItem = Omit<DeadlockItem, "type"> & {
+    type: string;
+};
+
+const normalizeItemType = (type: string): DeadlockItem["type"] =>
+    type === "Vitality" || type === "Spirit" ? type : "Weapon";
+
 let imageCache: { expiresAt: number; imagesByName: Map<string, string> } | undefined;
 let pendingImageLookup: Promise<Map<string, string>> | undefined;
 
@@ -90,7 +97,11 @@ export const GET: RequestHandler = async ({ platform, fetch }) => {
         if (response === null) {
             return json({ error: "Items were not found in KV" }, { status: 404 });
         }
-        const items = JSON.parse(response) as DeadlockItem[];
+        const storedItems = JSON.parse(response) as StoredDeadlockItem[];
+        const items: DeadlockItem[] = storedItems.map((item) => ({
+            ...item,
+            type: normalizeItemType(item.type)
+        }));
 
         try {
             const imagesByName = await getImageLookup(fetch);

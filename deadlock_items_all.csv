@@ -1,4 +1,4 @@
-﻿Name,Cooldown,Effect Duration,Item Effect,Item Trigger,Sort Key,Stats,Tier,Type,Upgrades From,Upgrades To
+Name,Cooldown,Effect Duration,Item Effect,Item Trigger,Sort Key,Stats,Tier,Type,Upgrades From,Upgrades To
 Extra Charge,N/A,N/A,None,None,1 Extra Charge,"Bonus Ability Charges, Bonus Spirit Power for Charged Abilities",1,Spirit,0,1
 Extra Spirit,N/A,N/A,None,None,1 Extra Spirit,Increased Spirit Power,1,Spirit,0,2
 Mystic Burst,14,N/A,Spirit Damage,Damage,1 Mystic Burst,None,1,Spirit,0,1
@@ -33,60 +33,60 @@ Unstoppable,60,7,"Immune to Disarm, Immune to Root, Immune to Silence, Immune to
 Echo Shard,30,N/A,Reset Ability Cooldown,Use Item,4 Echo Shard,"Increased Bullet Resist, Increased Spirit Resist",4,Spirit,0,0
 Refresher,300,N/A,Reset Ability Cooldown,Use Item,4 Refresher,None,4,Spirit,0,0
 Surge of Power,14,8,"Increased Fire Rate, Increased Move Speed",Use Ability,3 Surge of Power,None,3,Spirit,1,0
-Close Quarters,N/A,5.5,Increased Damage,Close Range,1 Close Quarters,Increased Melee Resist,1,Gun,0,1
-Extended Magazine,N/A,N/A,None,None,1 Extended Magazine,"Increased Max Ammo, Increased Weapon Damage",1,Gun,0,2
-Headshot Booster,9,N/A,Bonus Weapon Damage,Headshot,1 Headshot Booster,Bonus Health,1,Gun,0,1
-High-Velocity Rounds,N/A,N/A,None,None,1 High-Velocity Rounds,"Increased Bullet Velocity, Increased Weapon Damage",1,Gun,0,4
-Monster Rounds,N/A,N/A,None,None,1 Monster Rounds,"Increased Bullet Resist vs. NPCs, Increased Out of Combat Regen, Increased Weapon Damage vs. NPCs",1,Gun,0,1
-Active Reload,12,7,"Finish Reload, Increased Bullet Lifesteal, Increased Fire Rate, Increased Move Speed",Reload,2 Active Reload,Increased Max Ammo,2,Gun,0,0
-Escalating Resilience,N/A,24,Increased Bullet Resist,Shoot Enemy,3 Escalating Resilience,"Bonus Health, Increased Max Ammo, Increased Weapon Damage",3,Gun,1,0
-Toxic Bullets,N/A,4,"Bleed, Healing Reduction",Shoot Enemy,3 Toxic Bullets,None,3,Gun,0,0
-Ricochet,N/A,N/A,Bullet Bounces to Other Targets,Shoot Enemy,4 Ricochet,Increased Fire Rate,4,Gun,0,0
-Spellslinger,N/A,18,"Increased Fire Rate, Increased Reload Speed","Ability Use, In Combat, Use Ability, Use Item",4 Spellslinger,Ability Cooldown Reduction,4,Gun,0,0
-Rapid Rounds,N/A,N/A,None,None,1 Rapid Rounds,Increased Fire Rate,1,Gun,0,2
-Swift Striker,N/A,N/A,None,None,2 Swift Striker,"Increased Fire Rate, Increased Sprint Speed",2,Gun,1,0
-Long Range,N/A,N/A,Increased Damage,None,2 Long Range,"Increased Sprint Speed, Increased Weapon Range",2,Gun,0,1
-Spirit Shredder Bullets,N/A,8,"Decreased Spirit Resist, Spirit Lifesteal",Shoot Enemy,2 Spirit Shredder Bullets,None,2,Gun,0,1
-Opening Rounds,N/A,N/A,Increased Damage,"Enemy Above 50% Health, Shoot Enemy",2 Opening Rounds,"Increased Bullet Velocity, Increased Spirit Power, Increased Weapon Damage",2,Gun,1,0
-Kinetic Dash,N/A,7,"Increased Fire Rate, Increased Max Ammo",Dash-Jump,2 Kinetic Dash,"Increased Stamina, Increased Stamina Recovery",2,Gun,1,0
-Melee Charge,5,N/A,Increased Melee Damage,Heavy Melee,2 Melee Charge,"Increased Bullet Resist, Increased Melee Damage, Increased Melee Range",2,Gun,0,1
-Titanic Magazine,N/A,N/A,None,None,2 Titanic Magazine,"Increased Max Ammo, Increased Weapon Damage",2,Gun,1,0
-Fleetfoot,16,5,"Increased Move Speed, Increased Slow Resist",Use Item,2 Fleetfoot,"Increased Bullet Resist, Increased Slide Distance, Increased Weapon Damage",2,Gun,0,0
-Slowing Bullets,N/A,3.5,"Decreased Dash Distance, Movement Slow",Shoot Enemy,2 Slowing Bullets,None,2,Gun,0,1
-Stalker,6,5,"Decreased Bullet Resist, Increased Move Speed, Reveal, Spirit Damage","Close Range, Weapon Damage",2 Stalker,"Bonus Health, Reduced Footstep Sound",2,Gun,0,0
-Restorative Shot,6,N/A,Heal,Shoot Enemy,1 Restorative Shot,Increased Weapon Damage,1,Gun,0,0
-Weakening Headshot,0,12,Decreased Bullet Resist,Headshot,2 Weakening Headshot,Bonus Health,2,Gun,0,1
-Recharging Rush,25,N/A,Restore Ability Charge,Shoot Enemy,2 Recharging Rush,"Increased Max Ammo, Increased Weapon Damage",2,Gun,0,0
-Intensifying Magazine,N/A,N/A,Increased Damage,Fire Weapon,2 Intensifying Magazine,Increased Max Ammo,2,Gun,0,0
-Mystic Shot,8,N/A,Spirit Damage,Shoot Enemy,2 Mystic Shot,Increased Spirit Power,2,Gun,0,0
-Split Shot,24,5,"Increased Damage, Multishot",Use Item,2 Split Shot,None,2,Gun,0,0
-Express Shot,8,N/A,"Double Shot, Increased Bullet Velocity, Increased Damage",Shoot Enemy,3 Express Shot,"Increased Bullet Velocity, Increased Weapon Damage",3,Gun,1,0
-Cultist Sacrifice,270,160,"Bonus Health, Gain Souls, Increased Ability Range, Increased Damage",Use Item,3 Cultist Sacrifice,"Increased Bullet Resist vs. NPCs, Increased Out of Combat Regen, Increased Weapon Damage vs. NPCs",3,Gun,1,0
-Heroic Aura,25,7,"Increased Bullet Resist, Increased Fire Rate, Increased Move Speed",Use Item,3 Heroic Aura,Increased Sprint Speed,3,Gun,0,0
-Ballistic Enchantment,N/A,14,"Increased Ability Range, Increased Damage",Use Imbued Ability,3 Ballistic Enchantment,None,3,Gun,1,0
-Shadow Weave,45,13,"Increased Fire Rate, Increased Melee Damage, Increased Spirit Power, Stealth",Use Item,3 Shadow Weave,"Increased Out of Combat Regen, Increased Sprint Speed",3,Gun,0,0
-Headhunter,8,3,"Bonus Weapon Damage, Heal, Increased Move Speed",Headshot,3 Headhunter,"Bonus Health, Increased Weapon Damage",3,Gun,1,0
-Point Blank,N/A,2,"Increased Damage, Movement Slow",Close Range,3 Point Blank,"Bonus Health, Increased Melee Resist",3,Gun,1,0
-Hunter's Aura,N/A,N/A,"Decreased Bullet Resist, Decreased Fire Rate",Close Range,3 Hunter's Aura,"Bonus Health, Increased Sprint Speed",3,Gun,0,0
-Weighted Shots,N/A,3.5,"Decreased Dash Distance, Movement Slow",Shoot Enemy,3 Weighted Shots,"Decreased Move Speed, Increased Debuff Resist, Increased Stamina Cooldown, Increased Weapon Damage",3,Gun,1,0
-Spirit Rend,2,8,"Decreased Spirit Resist, Spirit Lifesteal","Headshot, Shoot Enemy",3 Spirit Rend,Bonus Health,3,Gun,1,0
-Blood Tribute,N/A,N/A,"Health Drain, Increased Debuff Resist, Increased Fire Rate, Increased Move Speed",Use Item,3 Blood Tribute,"Increased Debuff Resist, Increased Out of Combat Regen, Increased Spirit Resist",3,Gun,0,0
-Sharpshooter,N/A,N/A,Increased Damage,Long Range,3 Sharpshooter,"Decreased Move Speed, Increased Bullet Velocity, Increased Sprint Speed, Increased Weapon Damage, Increased Weapon Range",3,Gun,2,0
-Tesla Bullets,0.2,N/A,Spirit Damage,Shoot Enemy,3 Tesla Bullets,None,3,Gun,0,1
-Alchemical Fire,30,5,"Decreased Bullet Resist, Spirit Damage",Use Item,3 Alchemical Fire,Increased Spirit Power,3,Gun,0,0
-Berserker,N/A,10,Increased Damage,Take Damage,3 Berserker,Increased Bullet Resist,3,Gun,0,0
-Burst Fire,9,4.5,"Increased Fire Rate, Increased Move Speed",Shoot Enemy,3 Burst Fire,Increased Fire Rate,3,Gun,1,0
-Hollow Point,N/A,8,"Decreased Bullet Resist, Increased Damage",Above Health Threshold,3 Hollow Point,"Bonus Health, Increased Out of Combat Regen",3,Gun,0,0
-Glass Cannon,N/A,N/A,Increased Fire Rate,Kill,4 Glass Cannon,"Decreased Max Health, Increased Weapon Damage",4,Gun,0,0
-Spiritual Overflow,N/A,15,"Increased Fire Rate, Increased Spirit Power, Spirit Lifesteal",Shoot Enemy,4 Spiritual Overflow,"Bonus Health, Increased Ability Duration, Increased Spirit Power, Spirit Lifesteal",4,Gun,1,0
-Silencer,N/A,6,"Decreased Spirit Damage, Silence",Shoot Enemy,4 Silencer,Increased Spirit Resist,4,Gun,0,0
-Crippling Headshot,N/A,12,"Decreased Bullet Resist, Decreased Spirit Resist, Healing Reduction",Headshot,4 Crippling Headshot,Bonus Health,4,Gun,1,0
-Capacitor,40,3,"Movement Slow, Prevent Stamina Use, Silence Movement Abilities, Spirit Damage","Shoot Enemy, Use Item",4 Capacitor,Increased Fire Rate,4,Gun,1,0
-Conjure Missiles,N/A,N/A,"Increased Damage, Increased Max Ammo",Kill,4 Conjure Missiles,"Decreased Max Health, Increased Fire Rate, Increased Move Speed, Increased Weapon Damage",4,Gun,0,0
-Lucky Shot,N/A,N/A,Increased Damage,Shoot Enemy,4 Lucky Shot,"Increased Crit Damage, Increased Max Ammo",4,Gun,0,0
-Frenzy,N/A,10,"Increased Debuff Resist, Increased Fire Rate, Increased Move Speed",Low Health,4 Frenzy,"Bonus Health, Bullet Lifesteal, Increased Fire Rate",4,Gun,0,0
-Armor Piercing Rounds,N/A,N/A,"Ignore Bullet Resist, Pierce",Shoot Enemy,4 Armor Piercing Rounds,"Increased Bullet Velocity, Increased Weapon Damage",4,Gun,1,0
-Crushing Fists,5,0.5,"Decreased Bullet Resist, Increased Melee Damage, Restore Ammo, Stun","Heavy Melee, Melee",4 Crushing Fists,"Increased Bullet Resist, Increased Melee Damage, Increased Melee Range",4,Gun,1,0
+Close Quarters,N/A,5.5,Increased Damage,Close Range,1 Close Quarters,Increased Melee Resist,1,Weapon,0,1
+Extended Magazine,N/A,N/A,None,None,1 Extended Magazine,"Increased Max Ammo, Increased Weapon Damage",1,Weapon,0,2
+Headshot Booster,9,N/A,Bonus Weapon Damage,Headshot,1 Headshot Booster,Bonus Health,1,Weapon,0,1
+High-Velocity Rounds,N/A,N/A,None,None,1 High-Velocity Rounds,"Increased Bullet Velocity, Increased Weapon Damage",1,Weapon,0,4
+Monster Rounds,N/A,N/A,None,None,1 Monster Rounds,"Increased Bullet Resist vs. NPCs, Increased Out of Combat Regen, Increased Weapon Damage vs. NPCs",1,Weapon,0,1
+Active Reload,12,7,"Finish Reload, Increased Bullet Lifesteal, Increased Fire Rate, Increased Move Speed",Reload,2 Active Reload,Increased Max Ammo,2,Weapon,0,0
+Escalating Resilience,N/A,24,Increased Bullet Resist,Shoot Enemy,3 Escalating Resilience,"Bonus Health, Increased Max Ammo, Increased Weapon Damage",3,Weapon,1,0
+Toxic Bullets,N/A,4,"Bleed, Healing Reduction",Shoot Enemy,3 Toxic Bullets,None,3,Weapon,0,0
+Ricochet,N/A,N/A,Bullet Bounces to Other Targets,Shoot Enemy,4 Ricochet,Increased Fire Rate,4,Weapon,0,0
+Spellslinger,N/A,18,"Increased Fire Rate, Increased Reload Speed","Ability Use, In Combat, Use Ability, Use Item",4 Spellslinger,Ability Cooldown Reduction,4,Weapon,0,0
+Rapid Rounds,N/A,N/A,None,None,1 Rapid Rounds,Increased Fire Rate,1,Weapon,0,2
+Swift Striker,N/A,N/A,None,None,2 Swift Striker,"Increased Fire Rate, Increased Sprint Speed",2,Weapon,1,0
+Long Range,N/A,N/A,Increased Damage,None,2 Long Range,"Increased Sprint Speed, Increased Weapon Range",2,Weapon,0,1
+Spirit Shredder Bullets,N/A,8,"Decreased Spirit Resist, Spirit Lifesteal",Shoot Enemy,2 Spirit Shredder Bullets,None,2,Weapon,0,1
+Opening Rounds,N/A,N/A,Increased Damage,"Enemy Above 50% Health, Shoot Enemy",2 Opening Rounds,"Increased Bullet Velocity, Increased Spirit Power, Increased Weapon Damage",2,Weapon,1,0
+Kinetic Dash,N/A,7,"Increased Fire Rate, Increased Max Ammo",Dash-Jump,2 Kinetic Dash,"Increased Stamina, Increased Stamina Recovery",2,Weapon,1,0
+Melee Charge,5,N/A,Increased Melee Damage,Heavy Melee,2 Melee Charge,"Increased Bullet Resist, Increased Melee Damage, Increased Melee Range",2,Weapon,0,1
+Titanic Magazine,N/A,N/A,None,None,2 Titanic Magazine,"Increased Max Ammo, Increased Weapon Damage",2,Weapon,1,0
+Fleetfoot,16,5,"Increased Move Speed, Increased Slow Resist",Use Item,2 Fleetfoot,"Increased Bullet Resist, Increased Slide Distance, Increased Weapon Damage",2,Weapon,0,0
+Slowing Bullets,N/A,3.5,"Decreased Dash Distance, Movement Slow",Shoot Enemy,2 Slowing Bullets,None,2,Weapon,0,1
+Stalker,6,5,"Decreased Bullet Resist, Increased Move Speed, Reveal, Spirit Damage","Close Range, Weapon Damage",2 Stalker,"Bonus Health, Reduced Footstep Sound",2,Weapon,0,0
+Restorative Shot,6,N/A,Heal,Shoot Enemy,1 Restorative Shot,Increased Weapon Damage,1,Weapon,0,0
+Weakening Headshot,0,12,Decreased Bullet Resist,Headshot,2 Weakening Headshot,Bonus Health,2,Weapon,0,1
+Recharging Rush,25,N/A,Restore Ability Charge,Shoot Enemy,2 Recharging Rush,"Increased Max Ammo, Increased Weapon Damage",2,Weapon,0,0
+Intensifying Magazine,N/A,N/A,Increased Damage,Fire Weapon,2 Intensifying Magazine,Increased Max Ammo,2,Weapon,0,0
+Mystic Shot,8,N/A,Spirit Damage,Shoot Enemy,2 Mystic Shot,Increased Spirit Power,2,Weapon,0,0
+Split Shot,24,5,"Increased Damage, Multishot",Use Item,2 Split Shot,None,2,Weapon,0,0
+Express Shot,8,N/A,"Double Shot, Increased Bullet Velocity, Increased Damage",Shoot Enemy,3 Express Shot,"Increased Bullet Velocity, Increased Weapon Damage",3,Weapon,1,0
+Cultist Sacrifice,270,160,"Bonus Health, Gain Souls, Increased Ability Range, Increased Damage",Use Item,3 Cultist Sacrifice,"Increased Bullet Resist vs. NPCs, Increased Out of Combat Regen, Increased Weapon Damage vs. NPCs",3,Weapon,1,0
+Heroic Aura,25,7,"Increased Bullet Resist, Increased Fire Rate, Increased Move Speed",Use Item,3 Heroic Aura,Increased Sprint Speed,3,Weapon,0,0
+Ballistic Enchantment,N/A,14,"Increased Ability Range, Increased Damage",Use Imbued Ability,3 Ballistic Enchantment,None,3,Weapon,1,0
+Shadow Weave,45,13,"Increased Fire Rate, Increased Melee Damage, Increased Spirit Power, Stealth",Use Item,3 Shadow Weave,"Increased Out of Combat Regen, Increased Sprint Speed",3,Weapon,0,0
+Headhunter,8,3,"Bonus Weapon Damage, Heal, Increased Move Speed",Headshot,3 Headhunter,"Bonus Health, Increased Weapon Damage",3,Weapon,1,0
+Point Blank,N/A,2,"Increased Damage, Movement Slow",Close Range,3 Point Blank,"Bonus Health, Increased Melee Resist",3,Weapon,1,0
+Hunter's Aura,N/A,N/A,"Decreased Bullet Resist, Decreased Fire Rate",Close Range,3 Hunter's Aura,"Bonus Health, Increased Sprint Speed",3,Weapon,0,0
+Weighted Shots,N/A,3.5,"Decreased Dash Distance, Movement Slow",Shoot Enemy,3 Weighted Shots,"Decreased Move Speed, Increased Debuff Resist, Increased Stamina Cooldown, Increased Weapon Damage",3,Weapon,1,0
+Spirit Rend,2,8,"Decreased Spirit Resist, Spirit Lifesteal","Headshot, Shoot Enemy",3 Spirit Rend,Bonus Health,3,Weapon,1,0
+Blood Tribute,N/A,N/A,"Health Drain, Increased Debuff Resist, Increased Fire Rate, Increased Move Speed",Use Item,3 Blood Tribute,"Increased Debuff Resist, Increased Out of Combat Regen, Increased Spirit Resist",3,Weapon,0,0
+Sharpshooter,N/A,N/A,Increased Damage,Long Range,3 Sharpshooter,"Decreased Move Speed, Increased Bullet Velocity, Increased Sprint Speed, Increased Weapon Damage, Increased Weapon Range",3,Weapon,2,0
+Tesla Bullets,0.2,N/A,Spirit Damage,Shoot Enemy,3 Tesla Bullets,None,3,Weapon,0,1
+Alchemical Fire,30,5,"Decreased Bullet Resist, Spirit Damage",Use Item,3 Alchemical Fire,Increased Spirit Power,3,Weapon,0,0
+Berserker,N/A,10,Increased Damage,Take Damage,3 Berserker,Increased Bullet Resist,3,Weapon,0,0
+Burst Fire,9,4.5,"Increased Fire Rate, Increased Move Speed",Shoot Enemy,3 Burst Fire,Increased Fire Rate,3,Weapon,1,0
+Hollow Point,N/A,8,"Decreased Bullet Resist, Increased Damage",Above Health Threshold,3 Hollow Point,"Bonus Health, Increased Out of Combat Regen",3,Weapon,0,0
+Glass Cannon,N/A,N/A,Increased Fire Rate,Kill,4 Glass Cannon,"Decreased Max Health, Increased Weapon Damage",4,Weapon,0,0
+Spiritual Overflow,N/A,15,"Increased Fire Rate, Increased Spirit Power, Spirit Lifesteal",Shoot Enemy,4 Spiritual Overflow,"Bonus Health, Increased Ability Duration, Increased Spirit Power, Spirit Lifesteal",4,Weapon,1,0
+Silencer,N/A,6,"Decreased Spirit Damage, Silence",Shoot Enemy,4 Silencer,Increased Spirit Resist,4,Weapon,0,0
+Crippling Headshot,N/A,12,"Decreased Bullet Resist, Decreased Spirit Resist, Healing Reduction",Headshot,4 Crippling Headshot,Bonus Health,4,Weapon,1,0
+Capacitor,40,3,"Movement Slow, Prevent Stamina Use, Silence Movement Abilities, Spirit Damage","Shoot Enemy, Use Item",4 Capacitor,Increased Fire Rate,4,Weapon,1,0
+Conjure Missiles,N/A,N/A,"Increased Damage, Increased Max Ammo",Kill,4 Conjure Missiles,"Decreased Max Health, Increased Fire Rate, Increased Move Speed, Increased Weapon Damage",4,Weapon,0,0
+Lucky Shot,N/A,N/A,Increased Damage,Shoot Enemy,4 Lucky Shot,"Increased Crit Damage, Increased Max Ammo",4,Weapon,0,0
+Frenzy,N/A,10,"Increased Debuff Resist, Increased Fire Rate, Increased Move Speed",Low Health,4 Frenzy,"Bonus Health, Bullet Lifesteal, Increased Fire Rate",4,Weapon,0,0
+Armor Piercing Rounds,N/A,N/A,"Ignore Bullet Resist, Pierce",Shoot Enemy,4 Armor Piercing Rounds,"Increased Bullet Velocity, Increased Weapon Damage",4,Weapon,1,0
+Crushing Fists,5,0.5,"Decreased Bullet Resist, Increased Melee Damage, Restore Ammo, Stun","Heavy Melee, Melee",4 Crushing Fists,"Increased Bullet Resist, Increased Melee Damage, Increased Melee Range",4,Weapon,1,0
 Spirit Lifesteal,N/A,N/A,None,None,2 Spirit Lifesteal,"Bonus Health, Increased Spirit Power, Spirit Lifesteal",2,Vitality,0,3
 Restorative Locket,20,N/A,"Heal, Restore Stamina","Enemy Ability Use, Use Item",2 Restorative Locket,Increased Spirit Resist,2,Vitality,0,0
 Spirit Armor,N/A,N/A,None,None,2 Spirit Armor,Increased Spirit Resist,2,Vitality,0,0

@@ -275,22 +275,16 @@
     }
 
     @media (max-width: 850px) {
-        .attribute-grid {
-            grid-template-columns: repeat(3, minmax(0, 1fr));
+        .guess {
+            padding: 0.65rem;
         }
 
-        .list-attribute {
-            grid-column: span 2;
-        }
-    }
-
-    @media (max-width: 560px) {
-        main {
-            width: min(100% - 1rem, 1100px);
+        .guess-heading {
+            gap: 0.5rem;
         }
 
-        .attribute-grid {
-            grid-template-columns: repeat(2, minmax(0, 1fr));
+        .item-identity {
+            gap: 0.5rem;
         }
 
         .item-image {
@@ -298,8 +292,36 @@
             height: 2.75rem;
         }
 
+        .guess-heading h2 {
+            font-size: 1.15rem;
+        }
+
+        .attribute-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 0.4rem;
+            margin-top: 0.65rem;
+        }
+
+        .attribute {
+            gap: 0.15rem;
+            padding: 0.5rem 0.6rem;
+        }
+
         .list-attribute {
             grid-column: span 2;
+        }
+
+        .attribute-label {
+            font-size: 0.68rem;
+        }
+
+        .attribute strong,
+        .attribute-list-item {
+            font-size: 0.85rem;
+        }
+
+        .direction {
+            font-size: 0.7rem;
         }
     }
 

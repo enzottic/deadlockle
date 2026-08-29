@@ -13,7 +13,7 @@ export interface DeadlockItem {
   image_url?: string;
 }
 
-export type DeadlockItemType = "Spirit" | "Gun" | "Vitality"
+export type DeadlockItemType = "Spirit" | "Weapon" | "Vitality"
 
 export interface DailyGameState {
   date: string;
