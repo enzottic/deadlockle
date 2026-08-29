@@ -1,6 +1,7 @@
 <script lang="ts">
     import type { DeadlockItem, DeadlockleGuessState, HigherLowerResult, ResultColor } from "$lib/types";
     import { onMount } from "svelte";
+    import ItemCatalog from "./ItemCatalog.svelte";
 
     interface Props {
       items: DeadlockItem[];
@@ -11,21 +12,6 @@
     let guesses = $state<DeadlockleGuessState[]>([]);
     let dailyItem = $state<DeadlockItem>();
     let hasWon = $state<boolean>(false)
-
-    const itemTypes = ["Gun", "Vitality", "Spirit"] as const;
-    type ItemType = (typeof itemTypes)[number];
-
-    const groupItemsByType = (items: DeadlockItem[]): Record<ItemType, DeadlockItem[]> => {
-        return items.reduce<Record<ItemType, DeadlockItem[]>>(
-            (groups, item) => {
-                groups[item.type].push(item);
-                return groups;
-            },
-            { Gun: [], Vitality: [], Spirit: [] }
-        );
-    };
-
-    let groupedItems = $derived(groupItemsByType(items));
 
     onMount(() => {
         dailyItem = items[Math.floor(Math.random() * items.length)]
@@ -215,25 +201,7 @@
         <h3 class="win-message">You won! The item was {dailyItem?.name}.</h3>
     {/if}
 
-    <div class="item-groups">
-        {#each itemTypes as type}
-            <section class="item-group">
-                <div class="group-heading">
-                    <h2>{type}</h2>
-                    <span>{groupedItems[type].length} items</span>
-                </div>
-
-                <div class="item-buttons">
-                    {#each groupedItems[type] as item}
-                        <button type="button" onclick={() => handleGuess(item)}>
-                            <span>{item.name}</span>
-                            <small>Tier {item.tier}</small>
-                        </button>
-                    {/each}
-                </div>
-            </section>
-        {/each}
-    </div>
+    <ItemCatalog {items} onselect={handleGuess} />
 </main>
 
 <style>
@@ -259,21 +227,18 @@
         background: #282828;
     }
 
-    .guess-heading,
-    .group-heading {
+    .guess-heading {
         display: flex;
         align-items: baseline;
         justify-content: space-between;
         gap: 1rem;
     }
 
-    .guess-heading h2,
-    .group-heading h2 {
+    .guess-heading h2 {
         margin: 0;
     }
 
-    .guess-label,
-    .group-heading span {
+    .guess-label {
         color: #a8a8a8;
         font-size: 0.85rem;
     }
@@ -390,55 +355,6 @@
         color: #72e6a2;
     }
 
-    .item-groups {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 1rem;
-    }
-
-    .item-group {
-        min-width: 0;
-        padding: 1rem;
-        border: 1px solid #383838;
-        border-radius: 0.75rem;
-        background: #242424;
-    }
-
-    .item-buttons {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-        margin-top: 0.85rem;
-    }
-
-    button {
-        display: flex;
-        min-width: 0;
-        flex: 1 1 9rem;
-        align-items: center;
-        justify-content: space-between;
-        gap: 0.5rem;
-        padding: 0.65rem 0.75rem;
-        border: 1px solid #555;
-        border-radius: 0.4rem;
-        background: #303030;
-        color: #f3f3f3;
-        cursor: pointer;
-        text-align: left;
-    }
-
-    button:hover,
-    button:focus-visible {
-        border-color: #9b9b9b;
-        background: #3b3b3b;
-    }
-
-    button small {
-        flex: 0 0 auto;
-        color: #aaa;
-        font-size: 0.75rem;
-    }
-
     @media (max-width: 850px) {
         .attribute-grid {
             grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -448,9 +364,6 @@
             grid-column: span 2;
         }
 
-        .item-groups {
-            grid-template-columns: 1fr;
-        }
     }
 
     @media (max-width: 560px) {
@@ -465,6 +378,7 @@
         .list-attribute {
             grid-column: span 2;
         }
+
     }
 
 </style>

@@ -10,6 +10,7 @@ export interface DeadlockItem {
   item_effect?: string[];
   cooldown?: number;
   duration?: number;
+  image_url?: string;
 }
 
 export type DeadlockItemType = "Spirit" | "Gun" | "Vitality"

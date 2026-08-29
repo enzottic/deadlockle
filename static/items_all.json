@@ -1,0 +1,3150 @@
+[
+  {
+    "name": "Extra Charge",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "1 Extra Charge",
+    "stats": [
+      "Bonus Ability Charges",
+      "Bonus Spirit Power for Charged Abilities"
+    ],
+    "tier": 1,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Extra Spirit",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "1 Extra Spirit",
+    "stats": [
+      "Increased Spirit Power"
+    ],
+    "tier": 1,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 2
+  },
+  {
+    "name": "Mystic Burst",
+    "cooldown": "14",
+    "effect_duration": null,
+    "item_effect": [
+      "Spirit Damage"
+    ],
+    "item_trigger": [
+      "Damage"
+    ],
+    "sort_key": "1 Mystic Burst",
+    "stats": [],
+    "tier": 1,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Mystic Expansion",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Increased Ability Range"
+    ],
+    "item_trigger": [
+      "Use Imbued Ability"
+    ],
+    "sort_key": "1 Mystic Expansion",
+    "stats": [],
+    "tier": 1,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Mystic Regeneration",
+    "cooldown": "7",
+    "effect_duration": "7",
+    "item_effect": [
+      "Increased Regeneration"
+    ],
+    "item_trigger": [
+      "Spirit Damage"
+    ],
+    "sort_key": "1 Mystic Regeneration",
+    "stats": [
+      "Bonus Health"
+    ],
+    "tier": 1,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Rusted Barrel",
+    "cooldown": "16",
+    "effect_duration": "5",
+    "item_effect": [
+      "Decreased Fire Rate"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "1 Rusted Barrel",
+    "stats": [
+      "Bonus Health",
+      "Increased Sprint Speed"
+    ],
+    "tier": 1,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Spirit Strike",
+    "cooldown": "8",
+    "effect_duration": "6",
+    "item_effect": [
+      "Decreased Spirit Resist",
+      "Spirit Damage"
+    ],
+    "item_trigger": [
+      "Heavy Melee",
+      "Light Melee"
+    ],
+    "sort_key": "1 Spirit Strike",
+    "stats": [],
+    "tier": 1,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Golden Goose Egg",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Golden Statue Buffs"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "1 Golden Goose Egg",
+    "stats": [],
+    "tier": 1,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Arcane Surge",
+    "cooldown": null,
+    "effect_duration": "7",
+    "item_effect": [
+      "Increased Ability Duration",
+      "Increased Ability Range",
+      "Increased Spirit Power"
+    ],
+    "item_trigger": [
+      "Dash-Jump"
+    ],
+    "sort_key": "2 Arcane Surge",
+    "stats": [
+      "Increased Stamina",
+      "Increased Stamina Recovery"
+    ],
+    "tier": 2,
+    "type": "Spirit",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Bullet Resist Shredder",
+    "cooldown": null,
+    "effect_duration": "8",
+    "item_effect": [
+      "Decreased Bullet Resist"
+    ],
+    "item_trigger": [
+      "Damage"
+    ],
+    "sort_key": "2 Bullet Resist Shredder",
+    "stats": [
+      "Increased Bullet Resist",
+      "Increased Weapon Damage"
+    ],
+    "tier": 2,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Cold Front",
+    "cooldown": "25",
+    "effect_duration": "4",
+    "item_effect": [
+      "Movement Slow",
+      "Spirit Damage"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "2 Cold Front",
+    "stats": [
+      "Increased Spirit Resist"
+    ],
+    "tier": 2,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Compress Cooldown",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Cooldown Reduction"
+    ],
+    "item_trigger": [],
+    "sort_key": "2 Compress Cooldown",
+    "stats": [],
+    "tier": 2,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Duration Extender",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Increased Duration"
+    ],
+    "item_trigger": [],
+    "sort_key": "2 Duration Extender",
+    "stats": [],
+    "tier": 2,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Improved Spirit",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "2 Improved Spirit",
+    "stats": [
+      "Increased Out of Combat Regen",
+      "Increased Spirit Power"
+    ],
+    "tier": 2,
+    "type": "Spirit",
+    "upgrades_from": 1,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Mystic Slow",
+    "cooldown": null,
+    "effect_duration": "2",
+    "item_effect": [
+      "Decreased Move Speed"
+    ],
+    "item_trigger": [
+      "Spirit Damage"
+    ],
+    "sort_key": "2 Mystic Slow",
+    "stats": [
+      "Bonus Health",
+      "Increased Sprint Speed"
+    ],
+    "tier": 2,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Mystic Vulnerability",
+    "cooldown": null,
+    "effect_duration": "7",
+    "item_effect": [
+      "Decreased Spirit Resist"
+    ],
+    "item_trigger": [
+      "Spirit Damage"
+    ],
+    "sort_key": "2 Mystic Vulnerability",
+    "stats": [
+      "Increased Spirit Resist"
+    ],
+    "tier": 2,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Quicksilver Reload",
+    "cooldown": "18",
+    "effect_duration": null,
+    "item_effect": [
+      "Increased Fire Rate",
+      "Weapon Reload"
+    ],
+    "item_trigger": [
+      "Ability Use"
+    ],
+    "sort_key": "2 Quicksilver Reload",
+    "stats": [],
+    "tier": 2,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Slowing Hex",
+    "cooldown": "27",
+    "effect_duration": "3.5",
+    "item_effect": [
+      "Decreased Dash Distance",
+      "Movement Slow"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "2 Slowing Hex",
+    "stats": [
+      "Increased Sprint Speed"
+    ],
+    "tier": 2,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Spirit Sap",
+    "cooldown": "18",
+    "effect_duration": "12",
+    "item_effect": [
+      "Decreased Spirit Power",
+      "Decreased Spirit Resist"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "2 Spirit Sap",
+    "stats": [
+      "Bonus Health"
+    ],
+    "tier": 2,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Suppressor",
+    "cooldown": null,
+    "effect_duration": "5",
+    "item_effect": [
+      "Decreased Fire Rate"
+    ],
+    "item_trigger": [
+      "Spirit Damage"
+    ],
+    "sort_key": "2 Suppressor",
+    "stats": [
+      "Increased Bullet Resist",
+      "Increased Spirit Power"
+    ],
+    "tier": 2,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Extra Health",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "1 Extra Health",
+    "stats": [
+      "Bonus Health"
+    ],
+    "tier": 1,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 2
+  },
+  {
+    "name": "Extra Regen",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "1 Extra Regen",
+    "stats": [
+      "Increased Health Regen",
+      "Increased Out of Combat Regen"
+    ],
+    "tier": 1,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Extra Stamina",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "1 Extra Stamina",
+    "stats": [
+      "Increased Stamina",
+      "Increased Stamina Recovery"
+    ],
+    "tier": 1,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 3
+  },
+  {
+    "name": "Healing Rite",
+    "cooldown": "70",
+    "effect_duration": "20",
+    "item_effect": [
+      "Increased Move Speed",
+      "Regen"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "1 Healing Rite",
+    "stats": [],
+    "tier": 1,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 2
+  },
+  {
+    "name": "Melee Lifesteal",
+    "cooldown": "8",
+    "effect_duration": null,
+    "item_effect": [
+      "Heal"
+    ],
+    "item_trigger": [
+      "Melee"
+    ],
+    "sort_key": "1 Melee Lifesteal",
+    "stats": [
+      "Increased Melee Damage"
+    ],
+    "tier": 1,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Rebuttal",
+    "cooldown": null,
+    "effect_duration": "6",
+    "item_effect": [
+      "Damage",
+      "Heal",
+      "Increased Damage",
+      "Stun"
+    ],
+    "item_trigger": [
+      "Successful Parry"
+    ],
+    "sort_key": "1 Rebuttal",
+    "stats": [
+      "Bonus Health",
+      "Decreased Parry Cooldown",
+      "Increased Melee Resist"
+    ],
+    "tier": 1,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Sprint Boots",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "1 Sprint Boots",
+    "stats": [
+      "Increased Out of Combat Regen",
+      "Increased Sprint Speed"
+    ],
+    "tier": 1,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 3
+  },
+  {
+    "name": "Grit",
+    "cooldown": "60",
+    "effect_duration": "4",
+    "item_effect": [
+      "Gain Barrier"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "1 Grit",
+    "stats": [
+      "Increased Out of Combat Regen"
+    ],
+    "tier": 1,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 4
+  },
+  {
+    "name": "Infuser",
+    "cooldown": "30",
+    "effect_duration": "6",
+    "item_effect": [
+      "Increased Spirit Power",
+      "Spirit Lifesteal"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "4 Infuser",
+    "stats": [
+      "Bonus Health",
+      "Increased Spirit Power",
+      "Increased Spirit Resist",
+      "Spirit Lifesteal"
+    ],
+    "tier": 4,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Juggernaut",
+    "cooldown": null,
+    "effect_duration": "4",
+    "item_effect": [
+      "Decreased Fire Rate"
+    ],
+    "item_trigger": [
+      "Shot by Enemy"
+    ],
+    "sort_key": "4 Juggernaut",
+    "stats": [
+      "Increased Health Regen",
+      "Increased Melee Resist",
+      "Increased Move Speed",
+      "Increased Slow Resist"
+    ],
+    "tier": 4,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Unstoppable",
+    "cooldown": "60",
+    "effect_duration": "7",
+    "item_effect": [
+      "Immune to Disarm",
+      "Immune to Root",
+      "Immune to Silence",
+      "Immune to Sleep",
+      "Immune to Stun"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "4 Unstoppable",
+    "stats": [
+      "Bonus Health",
+      "Increased Debuff Resist"
+    ],
+    "tier": 4,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Echo Shard",
+    "cooldown": "30",
+    "effect_duration": null,
+    "item_effect": [
+      "Reset Ability Cooldown"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "4 Echo Shard",
+    "stats": [
+      "Increased Bullet Resist",
+      "Increased Spirit Resist"
+    ],
+    "tier": 4,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Refresher",
+    "cooldown": "300",
+    "effect_duration": null,
+    "item_effect": [
+      "Reset Ability Cooldown"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "4 Refresher",
+    "stats": [],
+    "tier": 4,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Surge of Power",
+    "cooldown": "14",
+    "effect_duration": "8",
+    "item_effect": [
+      "Increased Fire Rate",
+      "Increased Move Speed"
+    ],
+    "item_trigger": [
+      "Use Ability"
+    ],
+    "sort_key": "3 Surge of Power",
+    "stats": [],
+    "tier": 3,
+    "type": "Spirit",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Close Quarters",
+    "cooldown": null,
+    "effect_duration": "5.5",
+    "item_effect": [
+      "Increased Damage"
+    ],
+    "item_trigger": [
+      "Close Range"
+    ],
+    "sort_key": "1 Close Quarters",
+    "stats": [
+      "Increased Melee Resist"
+    ],
+    "tier": 1,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Extended Magazine",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "1 Extended Magazine",
+    "stats": [
+      "Increased Max Ammo",
+      "Increased Weapon Damage"
+    ],
+    "tier": 1,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 2
+  },
+  {
+    "name": "Headshot Booster",
+    "cooldown": "9",
+    "effect_duration": null,
+    "item_effect": [
+      "Bonus Weapon Damage"
+    ],
+    "item_trigger": [
+      "Headshot"
+    ],
+    "sort_key": "1 Headshot Booster",
+    "stats": [
+      "Bonus Health"
+    ],
+    "tier": 1,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "High-Velocity Rounds",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "1 High-Velocity Rounds",
+    "stats": [
+      "Increased Bullet Velocity",
+      "Increased Weapon Damage"
+    ],
+    "tier": 1,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 4
+  },
+  {
+    "name": "Monster Rounds",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "1 Monster Rounds",
+    "stats": [
+      "Increased Bullet Resist vs. NPCs",
+      "Increased Out of Combat Regen",
+      "Increased Weapon Damage vs. NPCs"
+    ],
+    "tier": 1,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Active Reload",
+    "cooldown": "12",
+    "effect_duration": "7",
+    "item_effect": [
+      "Finish Reload",
+      "Increased Bullet Lifesteal",
+      "Increased Fire Rate",
+      "Increased Move Speed"
+    ],
+    "item_trigger": [
+      "Reload"
+    ],
+    "sort_key": "2 Active Reload",
+    "stats": [
+      "Increased Max Ammo"
+    ],
+    "tier": 2,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Escalating Resilience",
+    "cooldown": null,
+    "effect_duration": "24",
+    "item_effect": [
+      "Increased Bullet Resist"
+    ],
+    "item_trigger": [
+      "Shoot Enemy"
+    ],
+    "sort_key": "3 Escalating Resilience",
+    "stats": [
+      "Bonus Health",
+      "Increased Max Ammo",
+      "Increased Weapon Damage"
+    ],
+    "tier": 3,
+    "type": "Gun",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Toxic Bullets",
+    "cooldown": null,
+    "effect_duration": "4",
+    "item_effect": [
+      "Bleed",
+      "Healing Reduction"
+    ],
+    "item_trigger": [
+      "Shoot Enemy"
+    ],
+    "sort_key": "3 Toxic Bullets",
+    "stats": [],
+    "tier": 3,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Ricochet",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Bullet Bounces to Other Targets"
+    ],
+    "item_trigger": [
+      "Shoot Enemy"
+    ],
+    "sort_key": "4 Ricochet",
+    "stats": [
+      "Increased Fire Rate"
+    ],
+    "tier": 4,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Spellslinger",
+    "cooldown": null,
+    "effect_duration": "18",
+    "item_effect": [
+      "Increased Fire Rate",
+      "Increased Reload Speed"
+    ],
+    "item_trigger": [
+      "Ability Use",
+      "In Combat",
+      "Use Ability",
+      "Use Item"
+    ],
+    "sort_key": "4 Spellslinger",
+    "stats": [
+      "Ability Cooldown Reduction"
+    ],
+    "tier": 4,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Rapid Rounds",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "1 Rapid Rounds",
+    "stats": [
+      "Increased Fire Rate"
+    ],
+    "tier": 1,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 2
+  },
+  {
+    "name": "Swift Striker",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "2 Swift Striker",
+    "stats": [
+      "Increased Fire Rate",
+      "Increased Sprint Speed"
+    ],
+    "tier": 2,
+    "type": "Gun",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Long Range",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Increased Damage"
+    ],
+    "item_trigger": [],
+    "sort_key": "2 Long Range",
+    "stats": [
+      "Increased Sprint Speed",
+      "Increased Weapon Range"
+    ],
+    "tier": 2,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Spirit Shredder Bullets",
+    "cooldown": null,
+    "effect_duration": "8",
+    "item_effect": [
+      "Decreased Spirit Resist",
+      "Spirit Lifesteal"
+    ],
+    "item_trigger": [
+      "Shoot Enemy"
+    ],
+    "sort_key": "2 Spirit Shredder Bullets",
+    "stats": [],
+    "tier": 2,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Opening Rounds",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Increased Damage"
+    ],
+    "item_trigger": [
+      "Enemy Above 50% Health",
+      "Shoot Enemy"
+    ],
+    "sort_key": "2 Opening Rounds",
+    "stats": [
+      "Increased Bullet Velocity",
+      "Increased Spirit Power",
+      "Increased Weapon Damage"
+    ],
+    "tier": 2,
+    "type": "Gun",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Kinetic Dash",
+    "cooldown": null,
+    "effect_duration": "7",
+    "item_effect": [
+      "Increased Fire Rate",
+      "Increased Max Ammo"
+    ],
+    "item_trigger": [
+      "Dash-Jump"
+    ],
+    "sort_key": "2 Kinetic Dash",
+    "stats": [
+      "Increased Stamina",
+      "Increased Stamina Recovery"
+    ],
+    "tier": 2,
+    "type": "Gun",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Melee Charge",
+    "cooldown": "5",
+    "effect_duration": null,
+    "item_effect": [
+      "Increased Melee Damage"
+    ],
+    "item_trigger": [
+      "Heavy Melee"
+    ],
+    "sort_key": "2 Melee Charge",
+    "stats": [
+      "Increased Bullet Resist",
+      "Increased Melee Damage",
+      "Increased Melee Range"
+    ],
+    "tier": 2,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Titanic Magazine",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "2 Titanic Magazine",
+    "stats": [
+      "Increased Max Ammo",
+      "Increased Weapon Damage"
+    ],
+    "tier": 2,
+    "type": "Gun",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Fleetfoot",
+    "cooldown": "16",
+    "effect_duration": "5",
+    "item_effect": [
+      "Increased Move Speed",
+      "Increased Slow Resist"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "2 Fleetfoot",
+    "stats": [
+      "Increased Bullet Resist",
+      "Increased Slide Distance",
+      "Increased Weapon Damage"
+    ],
+    "tier": 2,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Slowing Bullets",
+    "cooldown": null,
+    "effect_duration": "3.5",
+    "item_effect": [
+      "Decreased Dash Distance",
+      "Movement Slow"
+    ],
+    "item_trigger": [
+      "Shoot Enemy"
+    ],
+    "sort_key": "2 Slowing Bullets",
+    "stats": [],
+    "tier": 2,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Stalker",
+    "cooldown": "6",
+    "effect_duration": "5",
+    "item_effect": [
+      "Decreased Bullet Resist",
+      "Increased Move Speed",
+      "Reveal",
+      "Spirit Damage"
+    ],
+    "item_trigger": [
+      "Close Range",
+      "Weapon Damage"
+    ],
+    "sort_key": "2 Stalker",
+    "stats": [
+      "Bonus Health",
+      "Reduced Footstep Sound"
+    ],
+    "tier": 2,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Restorative Shot",
+    "cooldown": "6",
+    "effect_duration": null,
+    "item_effect": [
+      "Heal"
+    ],
+    "item_trigger": [
+      "Shoot Enemy"
+    ],
+    "sort_key": "1 Restorative Shot",
+    "stats": [
+      "Increased Weapon Damage"
+    ],
+    "tier": 1,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Weakening Headshot",
+    "cooldown": "0",
+    "effect_duration": "12",
+    "item_effect": [
+      "Decreased Bullet Resist"
+    ],
+    "item_trigger": [
+      "Headshot"
+    ],
+    "sort_key": "2 Weakening Headshot",
+    "stats": [
+      "Bonus Health"
+    ],
+    "tier": 2,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Recharging Rush",
+    "cooldown": "25",
+    "effect_duration": null,
+    "item_effect": [
+      "Restore Ability Charge"
+    ],
+    "item_trigger": [
+      "Shoot Enemy"
+    ],
+    "sort_key": "2 Recharging Rush",
+    "stats": [
+      "Increased Max Ammo",
+      "Increased Weapon Damage"
+    ],
+    "tier": 2,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Intensifying Magazine",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Increased Damage"
+    ],
+    "item_trigger": [
+      "Fire Weapon"
+    ],
+    "sort_key": "2 Intensifying Magazine",
+    "stats": [
+      "Increased Max Ammo"
+    ],
+    "tier": 2,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Mystic Shot",
+    "cooldown": "8",
+    "effect_duration": null,
+    "item_effect": [
+      "Spirit Damage"
+    ],
+    "item_trigger": [
+      "Shoot Enemy"
+    ],
+    "sort_key": "2 Mystic Shot",
+    "stats": [
+      "Increased Spirit Power"
+    ],
+    "tier": 2,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Split Shot",
+    "cooldown": "24",
+    "effect_duration": "5",
+    "item_effect": [
+      "Increased Damage",
+      "Multishot"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "2 Split Shot",
+    "stats": [],
+    "tier": 2,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Express Shot",
+    "cooldown": "8",
+    "effect_duration": null,
+    "item_effect": [
+      "Double Shot",
+      "Increased Bullet Velocity",
+      "Increased Damage"
+    ],
+    "item_trigger": [
+      "Shoot Enemy"
+    ],
+    "sort_key": "3 Express Shot",
+    "stats": [
+      "Increased Bullet Velocity",
+      "Increased Weapon Damage"
+    ],
+    "tier": 3,
+    "type": "Gun",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Cultist Sacrifice",
+    "cooldown": "270",
+    "effect_duration": "160",
+    "item_effect": [
+      "Bonus Health",
+      "Gain Souls",
+      "Increased Ability Range",
+      "Increased Damage"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "3 Cultist Sacrifice",
+    "stats": [
+      "Increased Bullet Resist vs. NPCs",
+      "Increased Out of Combat Regen",
+      "Increased Weapon Damage vs. NPCs"
+    ],
+    "tier": 3,
+    "type": "Gun",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Heroic Aura",
+    "cooldown": "25",
+    "effect_duration": "7",
+    "item_effect": [
+      "Increased Bullet Resist",
+      "Increased Fire Rate",
+      "Increased Move Speed"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "3 Heroic Aura",
+    "stats": [
+      "Increased Sprint Speed"
+    ],
+    "tier": 3,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Ballistic Enchantment",
+    "cooldown": null,
+    "effect_duration": "14",
+    "item_effect": [
+      "Increased Ability Range",
+      "Increased Damage"
+    ],
+    "item_trigger": [
+      "Use Imbued Ability"
+    ],
+    "sort_key": "3 Ballistic Enchantment",
+    "stats": [],
+    "tier": 3,
+    "type": "Gun",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Shadow Weave",
+    "cooldown": "45",
+    "effect_duration": "13",
+    "item_effect": [
+      "Increased Fire Rate",
+      "Increased Melee Damage",
+      "Increased Spirit Power",
+      "Stealth"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "3 Shadow Weave",
+    "stats": [
+      "Increased Out of Combat Regen",
+      "Increased Sprint Speed"
+    ],
+    "tier": 3,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Headhunter",
+    "cooldown": "8",
+    "effect_duration": "3",
+    "item_effect": [
+      "Bonus Weapon Damage",
+      "Heal",
+      "Increased Move Speed"
+    ],
+    "item_trigger": [
+      "Headshot"
+    ],
+    "sort_key": "3 Headhunter",
+    "stats": [
+      "Bonus Health",
+      "Increased Weapon Damage"
+    ],
+    "tier": 3,
+    "type": "Gun",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Point Blank",
+    "cooldown": null,
+    "effect_duration": "2",
+    "item_effect": [
+      "Increased Damage",
+      "Movement Slow"
+    ],
+    "item_trigger": [
+      "Close Range"
+    ],
+    "sort_key": "3 Point Blank",
+    "stats": [
+      "Bonus Health",
+      "Increased Melee Resist"
+    ],
+    "tier": 3,
+    "type": "Gun",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Hunter's Aura",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Decreased Bullet Resist",
+      "Decreased Fire Rate"
+    ],
+    "item_trigger": [
+      "Close Range"
+    ],
+    "sort_key": "3 Hunter's Aura",
+    "stats": [
+      "Bonus Health",
+      "Increased Sprint Speed"
+    ],
+    "tier": 3,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Weighted Shots",
+    "cooldown": null,
+    "effect_duration": "3.5",
+    "item_effect": [
+      "Decreased Dash Distance",
+      "Movement Slow"
+    ],
+    "item_trigger": [
+      "Shoot Enemy"
+    ],
+    "sort_key": "3 Weighted Shots",
+    "stats": [
+      "Decreased Move Speed",
+      "Increased Debuff Resist",
+      "Increased Stamina Cooldown",
+      "Increased Weapon Damage"
+    ],
+    "tier": 3,
+    "type": "Gun",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Spirit Rend",
+    "cooldown": "2",
+    "effect_duration": "8",
+    "item_effect": [
+      "Decreased Spirit Resist",
+      "Spirit Lifesteal"
+    ],
+    "item_trigger": [
+      "Headshot",
+      "Shoot Enemy"
+    ],
+    "sort_key": "3 Spirit Rend",
+    "stats": [
+      "Bonus Health"
+    ],
+    "tier": 3,
+    "type": "Gun",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Blood Tribute",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Health Drain",
+      "Increased Debuff Resist",
+      "Increased Fire Rate",
+      "Increased Move Speed"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "3 Blood Tribute",
+    "stats": [
+      "Increased Debuff Resist",
+      "Increased Out of Combat Regen",
+      "Increased Spirit Resist"
+    ],
+    "tier": 3,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Sharpshooter",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Increased Damage"
+    ],
+    "item_trigger": [
+      "Long Range"
+    ],
+    "sort_key": "3 Sharpshooter",
+    "stats": [
+      "Decreased Move Speed",
+      "Increased Bullet Velocity",
+      "Increased Sprint Speed",
+      "Increased Weapon Damage",
+      "Increased Weapon Range"
+    ],
+    "tier": 3,
+    "type": "Gun",
+    "upgrades_from": 2,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Tesla Bullets",
+    "cooldown": "0.2",
+    "effect_duration": null,
+    "item_effect": [
+      "Spirit Damage"
+    ],
+    "item_trigger": [
+      "Shoot Enemy"
+    ],
+    "sort_key": "3 Tesla Bullets",
+    "stats": [],
+    "tier": 3,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Alchemical Fire",
+    "cooldown": "30",
+    "effect_duration": "5",
+    "item_effect": [
+      "Decreased Bullet Resist",
+      "Spirit Damage"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "3 Alchemical Fire",
+    "stats": [
+      "Increased Spirit Power"
+    ],
+    "tier": 3,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Berserker",
+    "cooldown": null,
+    "effect_duration": "10",
+    "item_effect": [
+      "Increased Damage"
+    ],
+    "item_trigger": [
+      "Take Damage"
+    ],
+    "sort_key": "3 Berserker",
+    "stats": [
+      "Increased Bullet Resist"
+    ],
+    "tier": 3,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Burst Fire",
+    "cooldown": "9",
+    "effect_duration": "4.5",
+    "item_effect": [
+      "Increased Fire Rate",
+      "Increased Move Speed"
+    ],
+    "item_trigger": [
+      "Shoot Enemy"
+    ],
+    "sort_key": "3 Burst Fire",
+    "stats": [
+      "Increased Fire Rate"
+    ],
+    "tier": 3,
+    "type": "Gun",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Hollow Point",
+    "cooldown": null,
+    "effect_duration": "8",
+    "item_effect": [
+      "Decreased Bullet Resist",
+      "Increased Damage"
+    ],
+    "item_trigger": [
+      "Above Health Threshold"
+    ],
+    "sort_key": "3 Hollow Point",
+    "stats": [
+      "Bonus Health",
+      "Increased Out of Combat Regen"
+    ],
+    "tier": 3,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Glass Cannon",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Increased Fire Rate"
+    ],
+    "item_trigger": [
+      "Kill"
+    ],
+    "sort_key": "4 Glass Cannon",
+    "stats": [
+      "Decreased Max Health",
+      "Increased Weapon Damage"
+    ],
+    "tier": 4,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Spiritual Overflow",
+    "cooldown": null,
+    "effect_duration": "15",
+    "item_effect": [
+      "Increased Fire Rate",
+      "Increased Spirit Power",
+      "Spirit Lifesteal"
+    ],
+    "item_trigger": [
+      "Shoot Enemy"
+    ],
+    "sort_key": "4 Spiritual Overflow",
+    "stats": [
+      "Bonus Health",
+      "Increased Ability Duration",
+      "Increased Spirit Power",
+      "Spirit Lifesteal"
+    ],
+    "tier": 4,
+    "type": "Gun",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Silencer",
+    "cooldown": null,
+    "effect_duration": "6",
+    "item_effect": [
+      "Decreased Spirit Damage",
+      "Silence"
+    ],
+    "item_trigger": [
+      "Shoot Enemy"
+    ],
+    "sort_key": "4 Silencer",
+    "stats": [
+      "Increased Spirit Resist"
+    ],
+    "tier": 4,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Crippling Headshot",
+    "cooldown": null,
+    "effect_duration": "12",
+    "item_effect": [
+      "Decreased Bullet Resist",
+      "Decreased Spirit Resist",
+      "Healing Reduction"
+    ],
+    "item_trigger": [
+      "Headshot"
+    ],
+    "sort_key": "4 Crippling Headshot",
+    "stats": [
+      "Bonus Health"
+    ],
+    "tier": 4,
+    "type": "Gun",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Capacitor",
+    "cooldown": "40",
+    "effect_duration": "3",
+    "item_effect": [
+      "Movement Slow",
+      "Prevent Stamina Use",
+      "Silence Movement Abilities",
+      "Spirit Damage"
+    ],
+    "item_trigger": [
+      "Shoot Enemy",
+      "Use Item"
+    ],
+    "sort_key": "4 Capacitor",
+    "stats": [
+      "Increased Fire Rate"
+    ],
+    "tier": 4,
+    "type": "Gun",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Lucky Shot",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Increased Damage"
+    ],
+    "item_trigger": [
+      "Shoot Enemy"
+    ],
+    "sort_key": "4 Lucky Shot",
+    "stats": [
+      "Increased Crit Damage",
+      "Increased Max Ammo"
+    ],
+    "tier": 4,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Frenzy",
+    "cooldown": null,
+    "effect_duration": "10",
+    "item_effect": [
+      "Increased Debuff Resist",
+      "Increased Fire Rate",
+      "Increased Move Speed"
+    ],
+    "item_trigger": [
+      "Low Health"
+    ],
+    "sort_key": "4 Frenzy",
+    "stats": [
+      "Bonus Health",
+      "Bullet Lifesteal",
+      "Increased Fire Rate"
+    ],
+    "tier": 4,
+    "type": "Gun",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Armor Piercing Rounds",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Ignore Bullet Resist",
+      "Pierce"
+    ],
+    "item_trigger": [
+      "Shoot Enemy"
+    ],
+    "sort_key": "4 Armor Piercing Rounds",
+    "stats": [
+      "Increased Bullet Velocity",
+      "Increased Weapon Damage"
+    ],
+    "tier": 4,
+    "type": "Gun",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Crushing Fists",
+    "cooldown": "5",
+    "effect_duration": "0.5",
+    "item_effect": [
+      "Decreased Bullet Resist",
+      "Increased Melee Damage",
+      "Restore Ammo",
+      "Stun"
+    ],
+    "item_trigger": [
+      "Heavy Melee",
+      "Melee"
+    ],
+    "sort_key": "4 Crushing Fists",
+    "stats": [
+      "Increased Bullet Resist",
+      "Increased Melee Damage",
+      "Increased Melee Range"
+    ],
+    "tier": 4,
+    "type": "Gun",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Spirit Lifesteal",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "2 Spirit Lifesteal",
+    "stats": [
+      "Bonus Health",
+      "Increased Spirit Power",
+      "Spirit Lifesteal"
+    ],
+    "tier": 2,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 3
+  },
+  {
+    "name": "Restorative Locket",
+    "cooldown": "20",
+    "effect_duration": null,
+    "item_effect": [
+      "Heal",
+      "Restore Stamina"
+    ],
+    "item_trigger": [
+      "Enemy Ability Use",
+      "Use Item"
+    ],
+    "sort_key": "2 Restorative Locket",
+    "stats": [
+      "Increased Spirit Resist"
+    ],
+    "tier": 2,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Spirit Armor",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "2 Spirit Armor",
+    "stats": [
+      "Increased Spirit Resist"
+    ],
+    "tier": 2,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Return Fire",
+    "cooldown": "23",
+    "effect_duration": "6.5",
+    "item_effect": [
+      "Reflect Damage"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "2 Return Fire",
+    "stats": [
+      "Increased Bullet Resist"
+    ],
+    "tier": 2,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Trophy Collector",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Gain Souls",
+      "Increased Ability Range",
+      "Increased Sprint Speed"
+    ],
+    "item_trigger": [
+      "Kill"
+    ],
+    "sort_key": "2 Trophy Collector",
+    "stats": [
+      "Decreased Weapon Damage vs. NPCs",
+      "Increased Out of Combat Regen",
+      "Increased Sprint Speed"
+    ],
+    "tier": 2,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Enduring Speed",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "2 Enduring Speed",
+    "stats": [
+      "Increased Move Speed",
+      "Increased Out of Combat Regen",
+      "Increased Slow Resist"
+    ],
+    "tier": 2,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Debuff Reducer",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "2 Debuff Reducer",
+    "stats": [
+      "Bonus Health",
+      "Increased Debuff Resist"
+    ],
+    "tier": 2,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 2
+  },
+  {
+    "name": "Healbane",
+    "cooldown": null,
+    "effect_duration": "8",
+    "item_effect": [
+      "Heal",
+      "Healing Reduction"
+    ],
+    "item_trigger": [
+      "Kill",
+      "Spirit Damage"
+    ],
+    "sort_key": "2 Healbane",
+    "stats": [
+      "Increased Spirit Power"
+    ],
+    "tier": 2,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Healing Booster",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "2 Healing Booster",
+    "stats": [
+      "Increased Healing",
+      "Increased Health Regen",
+      "Increased Out of Combat Regen"
+    ],
+    "tier": 2,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Weapon Shielding",
+    "cooldown": "35",
+    "effect_duration": "8",
+    "item_effect": [
+      "Gain Barrier"
+    ],
+    "item_trigger": [
+      "Shot by Enemy"
+    ],
+    "sort_key": "2 Weapon Shielding",
+    "stats": [
+      "Increased Bullet Resist",
+      "Increased Out of Combat Regen"
+    ],
+    "tier": 2,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Bullet Armor",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "2 Bullet Armor",
+    "stats": [
+      "Increased Bullet Resist"
+    ],
+    "tier": 2,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Enchanter's Emblem",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Cooldown Reduction",
+      "Increased Spirit Power"
+    ],
+    "item_trigger": [
+      "Above Health Threshold"
+    ],
+    "sort_key": "2 Enchanter's Emblem",
+    "stats": [
+      "Increased Out of Combat Regen",
+      "Increased Spirit Resist"
+    ],
+    "tier": 2,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Reactive Barrier",
+    "cooldown": "55",
+    "effect_duration": "10",
+    "item_effect": [
+      "Gain Barrier"
+    ],
+    "item_trigger": [
+      "Crowd Control"
+    ],
+    "sort_key": "2 Reactive Barrier",
+    "stats": [
+      "Increased Out of Combat Regen"
+    ],
+    "tier": 2,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Guardian Ward",
+    "cooldown": "60",
+    "effect_duration": "6",
+    "item_effect": [
+      "Gain Barrier",
+      "Increased Move Speed"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "2 Guardian Ward",
+    "stats": [
+      "Increased Ability Range",
+      "Increased Out of Combat Regen"
+    ],
+    "tier": 2,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 1
+  },
+  {
+    "name": "Spirit Shielding",
+    "cooldown": "45",
+    "effect_duration": "8",
+    "item_effect": [
+      "Gain Barrier"
+    ],
+    "item_trigger": [
+      "Spirit Damage"
+    ],
+    "sort_key": "2 Spirit Shielding",
+    "stats": [
+      "Increased Out of Combat Regen",
+      "Increased Spirit Resist"
+    ],
+    "tier": 2,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Battle Vest",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Increased Damage",
+      "Increased Fire Rate"
+    ],
+    "item_trigger": [
+      "Above Health Threshold"
+    ],
+    "sort_key": "2 Battle Vest",
+    "stats": [
+      "Increased Bullet Resist",
+      "Increased Out of Combat Regen"
+    ],
+    "tier": 2,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Bullet Lifesteal",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "2 Bullet Lifesteal",
+    "stats": [
+      "Bonus Health",
+      "Bullet Lifesteal",
+      "Increased Weapon Damage"
+    ],
+    "tier": 2,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 3
+  },
+  {
+    "name": "Metal Skin",
+    "cooldown": "24",
+    "effect_duration": "5",
+    "item_effect": [
+      "Decreased Dash Distance",
+      "Decreased Move Speed",
+      "Immune to Bullets"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "3 Metal Skin",
+    "stats": [
+      "Increased Bullet Resist"
+    ],
+    "tier": 3,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Fury Trance",
+    "cooldown": "18",
+    "effect_duration": "6.5",
+    "item_effect": [
+      "Increased Fire Rate",
+      "Increased Spirit Resist",
+      "Prevent Stamina Use",
+      "Silence"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "3 Fury Trance",
+    "stats": [
+      "Bonus Health",
+      "Bullet Lifesteal",
+      "Increased Weapon Damage"
+    ],
+    "tier": 3,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Veil Walker",
+    "cooldown": "15",
+    "effect_duration": "8",
+    "item_effect": [
+      "Heal",
+      "Increased Move Speed",
+      "Stealth"
+    ],
+    "item_trigger": [
+      "Veil"
+    ],
+    "sort_key": "3 Veil Walker",
+    "stats": [
+      "Bonus Health",
+      "Increased Out of Combat Regen",
+      "Increased Spirit Power",
+      "Increased Sprint Speed"
+    ],
+    "tier": 3,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Lifestrike",
+    "cooldown": "4",
+    "effect_duration": "2.5",
+    "item_effect": [
+      "Heal",
+      "Movement Slow"
+    ],
+    "item_trigger": [
+      "Melee"
+    ],
+    "sort_key": "3 Lifestrike",
+    "stats": [
+      "Bonus Health",
+      "Increased Melee Damage"
+    ],
+    "tier": 3,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Counterspell",
+    "cooldown": "23",
+    "effect_duration": "0.8",
+    "item_effect": [
+      "Block Ability",
+      "Heal",
+      "Increased Move Speed",
+      "Increased Spirit Power"
+    ],
+    "item_trigger": [
+      "Successful Parry"
+    ],
+    "sort_key": "3 Counterspell",
+    "stats": [
+      "Bonus Health",
+      "Increased Spirit Power"
+    ],
+    "tier": 3,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Dispel Magic",
+    "cooldown": "45",
+    "effect_duration": "3",
+    "item_effect": [
+      "Heal",
+      "Increased Move Speed",
+      "Remove Debuffs"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "3 Dispel Magic",
+    "stats": [
+      "Increased Spirit Resist"
+    ],
+    "tier": 3,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Bullet Resilience",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Increased Bullet Resist"
+    ],
+    "item_trigger": [
+      "Low Health"
+    ],
+    "sort_key": "3 Bullet Resilience",
+    "stats": [
+      "Increased Bullet Resist",
+      "Increased Out of Combat Regen"
+    ],
+    "tier": 3,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Rescue Beam",
+    "cooldown": "60",
+    "effect_duration": "2.5",
+    "item_effect": [
+      "Heal",
+      "Pull Ally"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "3 Rescue Beam",
+    "stats": [
+      "Increased Ability Range",
+      "Increased Sprint Speed"
+    ],
+    "tier": 3,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Healing Nova",
+    "cooldown": "60",
+    "effect_duration": "2",
+    "item_effect": [
+      "Heal"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "3 Healing Nova",
+    "stats": [
+      "Increased Ability Range",
+      "Increased Spirit Power"
+    ],
+    "tier": 3,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Warp Stone",
+    "cooldown": "16",
+    "effect_duration": "6",
+    "item_effect": [
+      "Increased Bullet Resist",
+      "Teleport"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "3 Warp Stone",
+    "stats": [],
+    "tier": 3,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Fortitude",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Increased Move Speed",
+      "Increased Regeneration"
+    ],
+    "item_trigger": [
+      "Above Health Threshold",
+      "Out of Combat"
+    ],
+    "sort_key": "3 Fortitude",
+    "stats": [
+      "Bonus Health"
+    ],
+    "tier": 3,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Spirit Resilience",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Increased Spirit Resist"
+    ],
+    "item_trigger": [
+      "Low Health"
+    ],
+    "sort_key": "3 Spirit Resilience",
+    "stats": [
+      "Increased Out of Combat Regen",
+      "Increased Spirit Resist"
+    ],
+    "tier": 3,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Majestic Leap",
+    "cooldown": "45",
+    "effect_duration": "8",
+    "item_effect": [
+      "Gain Barrier",
+      "Launch"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "3 Majestic Leap",
+    "stats": [],
+    "tier": 3,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Stamina Mastery",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Extra Air Jump/Dash"
+    ],
+    "item_trigger": [],
+    "sort_key": "3 Stamina Mastery",
+    "stats": [
+      "Increased Air Movement",
+      "Increased Stamina",
+      "Stamina Cooldown Reduction"
+    ],
+    "tier": 3,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Witchmail",
+    "cooldown": "1",
+    "effect_duration": null,
+    "item_effect": [
+      "Cooldown Reduction"
+    ],
+    "item_trigger": [
+      "Spirit Damage"
+    ],
+    "sort_key": "4 Witchmail",
+    "stats": [
+      "Ability Cooldown Reduction",
+      "Increased Spirit Power",
+      "Increased Spirit Resist"
+    ],
+    "tier": 4,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Diviner's Kevlar",
+    "cooldown": "40",
+    "effect_duration": "20",
+    "item_effect": [
+      "Gain Barrier",
+      "Increased Spirit Power"
+    ],
+    "item_trigger": [
+      "Use Ability"
+    ],
+    "sort_key": "4 Diviner's Kevlar",
+    "stats": [
+      "Increased Ability Duration"
+    ],
+    "tier": 4,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Indomitable",
+    "cooldown": "55",
+    "effect_duration": "10",
+    "item_effect": [
+      "Cooldown Reduction",
+      "Gain Barrier",
+      "Remove Debuffs"
+    ],
+    "item_trigger": [
+      "Crowd Control"
+    ],
+    "sort_key": "4 Indomitable",
+    "stats": [
+      "Increased Bullet Resist",
+      "Increased Out of Combat Regen",
+      "Increased Spirit Resist"
+    ],
+    "tier": 4,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Plated Armor",
+    "cooldown": "1",
+    "effect_duration": null,
+    "item_effect": [
+      "Block Bullet On-Hit",
+      "Deflect Bullet"
+    ],
+    "item_trigger": [
+      "Shot by Enemy"
+    ],
+    "sort_key": "4 Plated Armor",
+    "stats": [
+      "Bonus Health"
+    ],
+    "tier": 4,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Divine Barrier",
+    "cooldown": "45",
+    "effect_duration": "6",
+    "item_effect": [
+      "Gain Barrier",
+      "Increased Move Speed",
+      "Remove Debuffs"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "4 Divine Barrier",
+    "stats": [
+      "Increased Ability Range",
+      "Increased Out of Combat Regen"
+    ],
+    "tier": 4,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Phantom Strike",
+    "cooldown": "35",
+    "effect_duration": "3",
+    "item_effect": [
+      "Damage",
+      "Disarm",
+      "Movement Slow",
+      "Teleport"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "4 Phantom Strike",
+    "stats": [
+      "Increased Spirit Power",
+      "Increased Weapon Damage"
+    ],
+    "tier": 4,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Siphon Bullets",
+    "cooldown": "1.2",
+    "effect_duration": "17",
+    "item_effect": [
+      "Steal Max Health"
+    ],
+    "item_trigger": [
+      "Shoot Enemy"
+    ],
+    "sort_key": "4 Siphon Bullets",
+    "stats": [
+      "Increased Bullet Resist",
+      "Increased Weapon Damage"
+    ],
+    "tier": 4,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Inhibitor",
+    "cooldown": null,
+    "effect_duration": "5",
+    "item_effect": [
+      "Decreased Damage",
+      "Healing Reduction"
+    ],
+    "item_trigger": [
+      "Shoot Enemy"
+    ],
+    "sort_key": "4 Inhibitor",
+    "stats": [
+      "Bonus Health",
+      "Increased Weapon Damage"
+    ],
+    "tier": 4,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Colossus",
+    "cooldown": "37",
+    "effect_duration": "7",
+    "item_effect": [
+      "Decreased Dash Distance",
+      "Increased Bullet Resist",
+      "Increased Melee Damage",
+      "Increased Spirit Resist",
+      "Movement Slow"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "4 Colossus",
+    "stats": [
+      "Bonus Health",
+      "Increased Weapon Damage"
+    ],
+    "tier": 4,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Spellbreaker",
+    "cooldown": "9",
+    "effect_duration": null,
+    "item_effect": [
+      "Decreased Spirit Damage"
+    ],
+    "item_trigger": [
+      "Spirit Damage"
+    ],
+    "sort_key": "4 Spellbreaker",
+    "stats": [
+      "Bonus Health",
+      "Increased Debuff Resist",
+      "Increased Spirit Resist"
+    ],
+    "tier": 4,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Leech",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [
+      "Reduced Healing Reduction"
+    ],
+    "item_trigger": [],
+    "sort_key": "4 Leech",
+    "stats": [
+      "Bonus Health",
+      "Bullet Lifesteal",
+      "Increased Spirit Power",
+      "Increased Weapon Damage",
+      "Spirit Lifesteal"
+    ],
+    "tier": 4,
+    "type": "Vitality",
+    "upgrades_from": 2,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Cheat Death",
+    "cooldown": "90",
+    "effect_duration": "4.5",
+    "item_effect": [
+      "Death Immunity",
+      "Decreased Damage",
+      "Decreased Healing",
+      "Remove Debuffs"
+    ],
+    "item_trigger": [
+      "Lethal Damage"
+    ],
+    "sort_key": "4 Cheat Death",
+    "stats": [
+      "Bonus Health",
+      "Increased Bullet Resist"
+    ],
+    "tier": 4,
+    "type": "Vitality",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Vampiric Burst",
+    "cooldown": "30",
+    "effect_duration": "5",
+    "item_effect": [
+      "Increased Bullet Lifesteal",
+      "Increased Fire Rate",
+      "Restore Ammo"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "4 Vampiric Burst",
+    "stats": [
+      "Bonus Health",
+      "Bullet Lifesteal",
+      "Increased Bullet Resist",
+      "Increased Weapon Damage"
+    ],
+    "tier": 4,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Healing Tempo",
+    "cooldown": "1",
+    "effect_duration": "7",
+    "item_effect": [
+      "Increased Fire Rate",
+      "Increased Move Speed"
+    ],
+    "item_trigger": [
+      "Heal"
+    ],
+    "sort_key": "4 Healing Tempo",
+    "stats": [
+      "Increased Healing",
+      "Increased Health Regen",
+      "Increased Out of Combat Regen",
+      "Increased Spirit Resist"
+    ],
+    "tier": 4,
+    "type": "Vitality",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Silence Wave",
+    "cooldown": "42",
+    "effect_duration": "3",
+    "item_effect": [
+      "Damage",
+      "Silence"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "3 Silence Wave",
+    "stats": [
+      "Bonus Health"
+    ],
+    "tier": 3,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Knockdown",
+    "cooldown": "35",
+    "effect_duration": "0.5",
+    "item_effect": [
+      "Stun"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "3 Knockdown",
+    "stats": [
+      "Bonus Health",
+      "Increased Ability Range"
+    ],
+    "tier": 3,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Spirit Snatch",
+    "cooldown": "6",
+    "effect_duration": "10",
+    "item_effect": [
+      "Decreased Spirit Power",
+      "Decreased Spirit Resist",
+      "Increased Spirit Power",
+      "Increased Spirit Resist",
+      "Spirit Damage"
+    ],
+    "item_trigger": [
+      "Heavy Melee",
+      "Light Melee"
+    ],
+    "sort_key": "3 Spirit Snatch",
+    "stats": [
+      "Bonus Health",
+      "Increased Melee Damage"
+    ],
+    "tier": 3,
+    "type": "Spirit",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Superior Duration",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "3 Superior Duration",
+    "stats": [
+      "Increased Ability Duration",
+      "Increased Bullet Resist"
+    ],
+    "tier": 3,
+    "type": "Spirit",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Radiant Regeneration",
+    "cooldown": "6",
+    "effect_duration": "7",
+    "item_effect": [
+      "Heal",
+      "Increased Move Speed",
+      "Increased Regeneration"
+    ],
+    "item_trigger": [
+      "Spirit Damage",
+      "Use Ability"
+    ],
+    "sort_key": "3 Radiant Regeneration",
+    "stats": [
+      "Bonus Health"
+    ],
+    "tier": 3,
+    "type": "Spirit",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Disarming Hex",
+    "cooldown": "16",
+    "effect_duration": "4.25",
+    "item_effect": [
+      "Decreased Bullet Resist",
+      "Disarm"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "3 Disarming Hex",
+    "stats": [
+      "Bonus Health",
+      "Increased Sprint Speed"
+    ],
+    "tier": 3,
+    "type": "Spirit",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Tankbuster",
+    "cooldown": "14",
+    "effect_duration": null,
+    "item_effect": [
+      "Ignore Spirit Resist",
+      "Spirit Damage"
+    ],
+    "item_trigger": [
+      "Ability Damage"
+    ],
+    "sort_key": "3 Tankbuster",
+    "stats": [
+      "Bonus Health"
+    ],
+    "tier": 3,
+    "type": "Spirit",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Decay",
+    "cooldown": "32",
+    "effect_duration": "10",
+    "item_effect": [
+      "Healing Reduction",
+      "Spirit Damage"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "3 Decay",
+    "stats": [
+      "Bonus Health",
+      "Increased Spirit Power"
+    ],
+    "tier": 3,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Greater Expansion",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "3 Greater Expansion",
+    "stats": [
+      "Increased Ability Range",
+      "Increased Spirit Resist"
+    ],
+    "tier": 3,
+    "type": "Spirit",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Superior Cooldown",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "3 Superior Cooldown",
+    "stats": [
+      "Ability Cooldown Reduction",
+      "Increased Out of Combat Regen"
+    ],
+    "tier": 3,
+    "type": "Spirit",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Rapid Recharge",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "3 Rapid Recharge",
+    "stats": [
+      "Ability Cooldown Reduction",
+      "Bonus Ability Charges",
+      "Bonus Spirit Power for Charged Abilities",
+      "Charge Cooldown Reduction"
+    ],
+    "tier": 3,
+    "type": "Spirit",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Torment Pulse",
+    "cooldown": "1.4",
+    "effect_duration": null,
+    "item_effect": [
+      "Spirit Damage"
+    ],
+    "item_trigger": [
+      "Nearby Enemy"
+    ],
+    "sort_key": "3 Torment Pulse",
+    "stats": [
+      "Bonus Health",
+      "Increased Melee Resist"
+    ],
+    "tier": 3,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Lightning Scroll",
+    "cooldown": null,
+    "effect_duration": "0.75",
+    "item_effect": [
+      "Decreased Dash Distance",
+      "Movement Slow",
+      "Spirit Damage",
+      "Stun"
+    ],
+    "item_trigger": [
+      "Ultimate Damage"
+    ],
+    "sort_key": "4 Lightning Scroll",
+    "stats": [
+      "Bonus Health",
+      "Increased Sprint Speed"
+    ],
+    "tier": 4,
+    "type": "Spirit",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Escalating Exposure",
+    "cooldown": "0.7",
+    "effect_duration": "12",
+    "item_effect": [
+      "Decreased Spirit Resist",
+      "Increased Spirit Damage"
+    ],
+    "item_trigger": [
+      "Spirit Damage"
+    ],
+    "sort_key": "4 Escalating Exposure",
+    "stats": [
+      "Increased Spirit Resist"
+    ],
+    "tier": 4,
+    "type": "Spirit",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Boundless Spirit",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "4 Boundless Spirit",
+    "stats": [
+      "Bonus Health",
+      "Increased Out of Combat Regen",
+      "Increased Spirit Power"
+    ],
+    "tier": 4,
+    "type": "Spirit",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Transcendent Cooldown",
+    "cooldown": null,
+    "effect_duration": null,
+    "item_effect": [],
+    "item_trigger": [],
+    "sort_key": "4 Transcendent Cooldown",
+    "stats": [
+      "Ability Cooldown Reduction",
+      "Increased Out of Combat Regen",
+      "Item Cooldown Reduction"
+    ],
+    "tier": 4,
+    "type": "Spirit",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Ethereal Shift",
+    "cooldown": "35",
+    "effect_duration": "4",
+    "item_effect": [
+      "Increased Move Speed",
+      "Increased Spirit Power",
+      "Increased Spirit Resist",
+      "Invincible",
+      "Untargetable"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "4 Ethereal Shift",
+    "stats": [],
+    "tier": 4,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Scourge",
+    "cooldown": "35",
+    "effect_duration": "10",
+    "item_effect": [
+      "Increased Spirit Resist",
+      "Spirit Damage"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "4 Scourge",
+    "stats": [
+      "Bonus Health",
+      "Increased Debuff Resist"
+    ],
+    "tier": 4,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Cursed Relic",
+    "cooldown": "55",
+    "effect_duration": "3.25",
+    "item_effect": [
+      "Decreased Damage",
+      "Disarm",
+      "Prevent Item Use",
+      "Remove Buffs",
+      "Silence"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "4 Cursed Relic",
+    "stats": [],
+    "tier": 4,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Spirit Burn",
+    "cooldown": "20",
+    "effect_duration": "8",
+    "item_effect": [
+      "Healing Reduction",
+      "Spirit Damage"
+    ],
+    "item_trigger": [
+      "Spirit Damage"
+    ],
+    "sort_key": "4 Spirit Burn",
+    "stats": [
+      "Increased Ability Range"
+    ],
+    "tier": 4,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Mystic Reverb",
+    "cooldown": "6.25",
+    "effect_duration": null,
+    "item_effect": [
+      "Movement Slow",
+      "Spirit Damage",
+      "Spirit Lifesteal"
+    ],
+    "item_trigger": [
+      "Use Imbued Ability"
+    ],
+    "sort_key": "4 Mystic Reverb",
+    "stats": [
+      "Spirit Lifesteal"
+    ],
+    "tier": 4,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Mercurial Magnum",
+    "cooldown": "15",
+    "effect_duration": "12",
+    "item_effect": [
+      "Increased Fire Rate",
+      "Spirit Damage",
+      "Weapon Reload"
+    ],
+    "item_trigger": [
+      "Use Imbued Ability"
+    ],
+    "sort_key": "4 Mercurial Magnum",
+    "stats": [
+      "Increased Max Ammo",
+      "Increased Spirit Power"
+    ],
+    "tier": 4,
+    "type": "Spirit",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Vortex Web",
+    "cooldown": "42",
+    "effect_duration": "4",
+    "item_effect": [
+      "Decreased Dash Distance",
+      "Movement Slow",
+      "Pull Enemy"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "4 Vortex Web",
+    "stats": [
+      "Increased Ability Range",
+      "Increased Sprint Speed"
+    ],
+    "tier": 4,
+    "type": "Spirit",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Focus Lens",
+    "cooldown": "45",
+    "effect_duration": "4.5",
+    "item_effect": [
+      "Damage",
+      "Decreased Spirit Power",
+      "Decreased Spirit Resist",
+      "Silence"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "4 Focus Lens",
+    "stats": [
+      "Increased Fire Rate"
+    ],
+    "tier": 4,
+    "type": "Spirit",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Magic Carpet",
+    "cooldown": "32",
+    "effect_duration": "12",
+    "item_effect": [
+      "Fly",
+      "Immune to Slow"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "4 Magic Carpet",
+    "stats": [
+      "Bonus Health",
+      "Increased Ability Duration",
+      "Increased Air Movement",
+      "Increased Spirit Power"
+    ],
+    "tier": 4,
+    "type": "Spirit",
+    "upgrades_from": 0,
+    "upgrades_to": 0
+  },
+  {
+    "name": "Arctic Blast",
+    "cooldown": "24",
+    "effect_duration": "1",
+    "item_effect": [
+      "Movement Slow",
+      "Prevent Stamina Regen",
+      "Root",
+      "Spirit Damage"
+    ],
+    "item_trigger": [
+      "Use Item"
+    ],
+    "sort_key": "4 Arctic Blast",
+    "stats": [
+      "Increased Spirit Resist"
+    ],
+    "tier": 4,
+    "type": "Spirit",
+    "upgrades_from": 1,
+    "upgrades_to": 0
+  }
+]
