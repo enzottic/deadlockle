@@ -502,11 +502,11 @@
         }
     }
 
-    @media (max-width: 560px) {
+    @media (max-width: 850px) {
         .picker-shell {
             left: auto;
             width: 100%;
-            padding-top: 3.15rem;
+            padding-top: 2.75rem;
             box-sizing: border-box;
             transform: none;
         }
@@ -516,32 +516,33 @@
             right: auto;
             left: 0;
             width: 100%;
+            height: 2.75rem;
             flex-direction: row;
-            gap: 0.35rem;
-            padding: 0 0.5rem;
+            align-items: stretch;
+            gap: 0.3rem;
+            padding: 0;
             box-sizing: border-box;
         }
 
         .type-tab {
             min-height: auto;
+            height: 100%;
             flex: 1 1 0;
+            min-width: 0;
+            padding: 0.65rem 0.25rem;
             border: 0;
             border-radius: 0.5rem 0.5rem 0 0;
             font-size: 0.72rem;
             text-align: center;
-            transform: translateY(1px);
+            transform: none;
         }
 
         .type-tab.active {
-            transform: translateY(0.4rem);
+            transform: none;
         }
 
         .type-tab.active::after {
-            top: auto;
-            right: 0;
-            bottom: -0.7rem;
-            width: 100%;
-            height: 0.75rem;
+            display: none;
         }
 
         .tier-groups {

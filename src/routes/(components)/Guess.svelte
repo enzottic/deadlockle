@@ -305,6 +305,18 @@
         .attribute {
             gap: 0.15rem;
             padding: 0.5rem 0.6rem;
+            clip-path: polygon(1% 0, 100% 0, 99% 100%, 0 100%);
+            transform: rotate(-0.15deg);
+        }
+
+        .attribute:nth-child(2),
+        .attribute:nth-child(4) {
+            transform: rotate(0.15deg);
+        }
+
+        .attribute:nth-child(3),
+        .attribute:nth-child(5) {
+            transform: rotate(-0.1deg);
         }
 
         .list-attribute {
