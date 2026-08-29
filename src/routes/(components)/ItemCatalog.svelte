@@ -100,7 +100,7 @@
         --type-surface-hover: #3b3b3b;
         position: relative;
         left: 50%;
-        width: min(calc(100vw - 6rem), 1350px);
+        width: min(calc(100vw - 6rem), 1100px);
         margin: 0 auto;
         transform: translateX(-50%);
     }
